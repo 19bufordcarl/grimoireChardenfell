@@ -9,7 +9,7 @@
 			<p id="spellSearch">Search by name: <input type="search" id="jetsSearch" class="jetsSearch"></p>
 			<div class="filter-section">
 				<label for="tagSearchBar">Filter by:</label>
-				<select id="tagSearchBar" class="tag-select">
+				<select id="tagSearchBar">
 					<option value="">Select a filter...</option>
 					<optgroup label="Casting Time">
 						<option value="action">Action</option>
@@ -34,11 +34,11 @@
 				</select>
 			</div>
 			<div id="activeFilters" class="active-filters"></div>
-			<button id="toggleAdvanced" class="toggle-advanced">Show advanced filters</button>
+			<button id="toggleAdvanced">Show advanced filters</button>
 			<div id="advancedFilters" class="advanced-filters" style="display: none;">
-				<p id="advancedTagSearch">Advanced tag search: <input type="search" id="advancedTagBar" class="jetsSearch" placeholder="e.g., level1 & bard"></p>
+				<p id="advancedTagSearch">Advanced tag search: <input type="search" id="advancedTagBar" placeholder="e.g., level1 & bard"></p>
 				<p id="sourceSearch">Filter by source: 
-					<select id="sourceSearchBar" class="tag-select">
+					<select id="sourceSearchBar">
 						<option value="">All sources</option>
 						<option value="Player's Handbook">Player's Handbook (2024)</option>
 					</select>

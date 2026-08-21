@@ -5,43 +5,43 @@ layout: default
 <div class="home">
   <h1 class="page-heading">All Spells</h1>
   <p id="spellSearch">Search by name: <input type="search" id="jetsSearch" class="jetsSearch"></p>
-			<div class="filter-section">
-				<label for="tagSearchBar">Filter by:</label>
-				<select id="tagSearchBar" class="tag-select">
-					<option value="">Select a filter...</option>
-					<optgroup label="Casting Time">
-						<option value="action">Action</option>
-						<option value="bonus">Bonus Action</option>
-						<option value="reaction">Reaction</option>
-						<option value="long">Long Casting Time</option>
-					</optgroup>
-					<optgroup label="School">
-						<option value="abjuration">Abjuration</option>
-						<option value="conjuration">Conjuration</option>
-						<option value="divination">Divination</option>
-						<option value="enchantment">Enchantment</option>
-						<option value="evocation">Evocation</option>
-						<option value="illusion">Illusion</option>
-						<option value="necromancy">Necromancy</option>
-						<option value="transmutation">Transmutation</option>
-					</optgroup>
-					<optgroup label="Other">
-						<option value="ritual">Ritual</option>
-						<option value="concentration">Concentration</option>
-					</optgroup>
-				</select>
-			</div>
-			<div id="activeFilters" class="active-filters"></div>
-			<button id="toggleAdvanced" class="toggle-advanced">Show advanced filters</button>
-			<div id="advancedFilters" class="advanced-filters" style="display: none;">
-				<p id="advancedTagSearch">Advanced tag search: <input type="search" id="advancedTagBar" class="jetsSearch" placeholder="e.g., level1 & bard"></p>
-				<p id="sourceSearch">Filter by source: 
-					<select id="sourceSearchBar" class="tag-select">
-						<option value="">All sources</option>
-						<option value="Player's Handbook">Player's Handbook (2024)</option>
-					</select>
-				</p>
-			</div>
+	<div class="filter-section">
+		<label for="tagSearchBar">Filter by:</label>
+		<select id="tagSearchBar">
+			<option value="">Select a filter...</option>
+			<optgroup label="Casting Time">
+				<option value="action">Action</option>
+				<option value="bonus">Bonus Action</option>
+				<option value="reaction">Reaction</option>
+				<option value="long">Long Casting Time</option>
+			</optgroup>
+			<optgroup label="School">
+				<option value="abjuration">Abjuration</option>
+				<option value="conjuration">Conjuration</option>
+				<option value="divination">Divination</option>
+				<option value="enchantment">Enchantment</option>
+				<option value="evocation">Evocation</option>
+				<option value="illusion">Illusion</option>
+				<option value="necromancy">Necromancy</option>
+				<option value="transmutation">Transmutation</option>
+			</optgroup>
+			<optgroup label="Other">
+				<option value="ritual">Ritual</option>
+				<option value="concentration">Concentration</option>
+			</optgroup>
+		</select>
+	</div>
+	<div id="activeFilters" class="active-filters"></div>
+	<button id="toggleAdvanced">Show advanced filters</button>
+	<div id="advancedFilters" class="advanced-filters" style="display: none;">
+		<p id="advancedTagSearch">Advanced tag search: <input type="search" id="advancedTagBar" placeholder="e.g., level1 & bard"></p>
+		<p id="sourceSearch">Filter by source: 
+			<select id="sourceSearchBar">
+				<option value="">All sources</option>
+				<option value="Player's Handbook">Player's Handbook (2024)</option>
+			</select>
+		</p>
+	</div>
   
   <dl class="tag-list">
     <dt>Spell tier:</dt>

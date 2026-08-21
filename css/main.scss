@@ -31,17 +31,17 @@
 
 .filter-label {
     font-size: 14px;
-    color: var(--text-muted, #666);
+    color: v.$text-color-light;
     margin-right: 4px;
 }
 
 .filter-chip {
     display: inline-block;
     padding: 6px 12px;
-    border: 1px solid var(--border-color, #ccc);
+    border: 1px solid v.$search-color-alt;
     border-radius: 20px;
-    background-color: var(--background-secondary, #f5f5f5);
-    color: var(--text-color, inherit);
+    background-color: v.$search-color-base;
+    color: v.$text-color-base;
     font-size: 14px;
     cursor: pointer;
     user-select: none;
@@ -56,97 +56,95 @@
 
 .filter-chip:hover,
 .filter-chip:active {
-    background-color: var(--background-hover, #e0e0e0);
-    border-color: var(--border-hover, #999);
+    background-color: v.$search-color-alt;
+    border-color: v.$search-color-alt;
 }
 
 .filter-chip.clear-all {
-    background-color: var(--danger-bg, #fee);
-    border-color: var(--danger-border, #fcc);
-    color: var(--danger-text, #c33);
+    background-color: #fee;
+    border-color: #fcc;
+    color: #c33;
 }
 
 .filter-chip.clear-all:hover {
-    background-color: var(--danger-bg-hover, #fdd);
-    border-color: var(--danger-border-hover, #faa);
+    background-color: #fdd;
+    border-color: #faa;
 }
 
-/* Tag select */
-.tag-select {
-    padding: 8px;
-    border: 1px solid var(--border-color, #ccc);
+/* Apply same styling as .jetsSearch to select and button */
+#tagSearchBar,
+#sourceSearchBar,
+#toggleAdvanced {
+    padding: 3px;
+    font-size: 16px;
+    line-height: v.$base-line-height;
+    width: auto;
+    max-width: 400px;
+    border: 1px solid v.$search-color-alt;
     border-radius: 4px;
-    background-color: var(--background-color, white);
-    color: var(--text-color, inherit);
-    font-size: 16px; /* Prevent zoom on iOS */
-    min-width: 180px;
+    margin-left: 8px;
+    background-color: v.$search-color-base;
+    color: v.$text-color-base;
+    font-family: v.$base-font-family;
     cursor: pointer;
-    max-width: 100%;
     -webkit-appearance: none;
+    -moz-appearance: none;
     appearance: none;
+    min-height: 30px;
+    box-sizing: border-box;
 }
 
-.tag-select:focus {
-    outline: none;
-    border-color: var(--primary-color, #666);
+#tagSearchBar:hover,
+#sourceSearchBar:hover,
+#toggleAdvanced:hover {
+    background-color: v.$search-color-alt;
+    border-color: v.$search-color-alt;
 }
 
-.tag-select optgroup {
-    font-weight: bold;
-    background-color: var(--background-color, white);
-    color: var(--text-color, inherit);
+#tagSearchBar:focus,
+#sourceSearchBar:focus,
+#toggleAdvanced:focus {
+    outline: 2px solid v.$brand-color-base;
+    outline-offset: 1px;
 }
 
-.tag-select option {
-    font-weight: normal;
-    background-color: var(--background-color, white);
-    color: var(--text-color, inherit);
+/* Option and optgroup styling */
+#tagSearchBar option,
+#tagSearchBar optgroup,
+#sourceSearchBar option,
+#sourceSearchBar optgroup {
+    background-color: v.$background-color-base;
+    color: v.$text-color-base;
+    font-size: 16px;
+    font-family: v.$base-font-family;
 }
 
-/* Toggle advanced button */
-.toggle-advanced {
+#toggleAdvanced {
     display: inline-block;
-    padding: 8px 12px;
-    border: 1px solid var(--border-color, #ccc);
-    border-radius: 4px;
-    background-color: var(--background-secondary, #f5f5f5);
-    color: var(--text-color, inherit);
-    font-size: 16px; /* Match select size */
-    cursor: pointer;
-    margin: 8px 0;
+    margin: 8px 0 8px 8px;
     user-select: none;
-    transition: all 0.2s ease;
-    min-height: 36px;
     touch-action: manipulation;
-    -webkit-appearance: none;
-    appearance: none;
-}
-
-.toggle-advanced:hover,
-.toggle-advanced:active {
-    background-color: var(--background-hover, #e0e0e0);
-    border-color: var(--border-hover, #999);
 }
 
 /* Advanced filters container */
 .advanced-filters {
     margin: 8px 0;
     padding: 12px;
-    border: 1px solid var(--border-color, #e0e0e0);
+    border: 1px solid v.$search-color-alt;
     border-radius: 4px;
-    background-color: var(--background-secondary, #fafafa);
+    background-color: v.$background-color-base;
 }
 
 /* Autocomplete styles */
 .autocomplete-items {
     position: absolute;
-    border: 1px solid var(--border-color, #ccc);
+    border: 1px solid v.$search-color-alt;
     border-top: none;
     z-index: 1000;
     max-height: 200px;
     overflow-y: auto;
-    background-color: var(--background-color, white);
-    color: var(--text-color, inherit);
+    background-color: v.$background-color-base;
+    color: v.$text-color-base;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     top: 100%;
     left: 0;
@@ -160,12 +158,12 @@
 }
 
 .autocomplete-item:hover {
-    background-color: var(--background-hover, #f0f0f0);
+    background-color: v.$search-color-base;
 }
 
 .autocomplete-item-selected {
-    background-color: var(--background-hover, #f0f0f0);
-    outline: 1px solid var(--primary-color, #666);
+    background-color: v.$search-color-base;
+    outline: 1px solid v.$brand-color-base;
 }
 
 /* Make the advanced search input container position relative for autocomplete */
@@ -176,31 +174,97 @@
 #advancedTagSearch input {
     width: 100%;
     max-width: 300px;
-    padding: 8px;
-    border: 1px solid var(--border-color, #ccc);
+    padding: 3px;
+    border: 1px solid v.$search-color-alt;
     border-radius: 4px;
-    background-color: var(--background-color, white);
-    color: var(--text-color, inherit);
+    background-color: v.$search-color-base;
+    color: v.$text-color-base;
     font-size: 16px;
+    font-family: v.$base-font-family;
     -webkit-appearance: none;
     appearance: none;
 }
 
-/* Mobile responsive */
-@media (max-width: 600px) {
-    .tag-select {
-        width: 100%;
-        font-size: 16px; /* Prevent iOS zoom */
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    #tagSearchBar,
+    #sourceSearchBar,
+    #toggleAdvanced {
+        color: v.$text-color-base-darktheme;
+        background-color: v.$search-color-base-darktheme;
+        border-color: v.$search-color-alt-darktheme;
+    }
+    
+    #tagSearchBar option,
+    #tagSearchBar optgroup,
+    #sourceSearchBar option,
+    #sourceSearchBar optgroup {
+        background-color: v.$background-color-base-darktheme;
+        color: v.$text-color-base-darktheme;
+    }
+    
+    #tagSearchBar:hover,
+    #sourceSearchBar:hover,
+    #toggleAdvanced:hover {
+        background-color: v.$search-color-alt-darktheme;
+        border-color: v.$search-color-alt-darktheme;
+    }
+    
+    #advancedTagSearch input {
+        color: v.$text-color-base-darktheme;
+        background-color: v.$search-color-base-darktheme;
+        border-color: v.$search-color-alt-darktheme;
     }
     
     .filter-chip {
-        padding: 8px 16px; /* Larger touch target */
+        background-color: v.$search-color-base-darktheme;
+        color: v.$text-color-base-darktheme;
+        border-color: v.$search-color-alt-darktheme;
+    }
+    
+    .filter-chip:hover,
+    .filter-chip:active {
+        background-color: v.$search-color-alt-darktheme;
+    }
+    
+    .filter-label {
+        color: v.$text-color-dark-darktheme;
+    }
+    
+    .advanced-filters {
+        border-color: v.$search-color-alt-darktheme;
+        background-color: v.$background-color-base-darktheme;
+    }
+    
+    .autocomplete-items {
+        background-color: v.$background-color-base-darktheme;
+        color: v.$text-color-base-darktheme;
+        border-color: v.$search-color-alt-darktheme;
+    }
+    
+    .autocomplete-item:hover,
+    .autocomplete-item-selected {
+        background-color: v.$search-color-base-darktheme;
+    }
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+    #tagSearchBar,
+    #sourceSearchBar {
+        width: 100%;
         font-size: 16px;
     }
     
-    .toggle-advanced {
+    .filter-chip {
+        padding: 8px 16px;
+        font-size: 16px;
+    }
+    
+    #toggleAdvanced {
         width: 100%;
         text-align: center;
+        margin-left: 0;
     }
     
     #advancedTagSearch input {
