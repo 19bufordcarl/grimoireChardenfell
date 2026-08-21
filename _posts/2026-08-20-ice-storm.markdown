@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Ice Storm"
+date: 2026-08-20
+sources: [XPHB.287]
+tags: [druid, sorcerer, wizard, level4, action, evocation]
+subtags:
+  - druid: land
+  - druid: sea
+  - paladin: ancients
+  - damage: bludgeoning
+  - damage: cold
+---
+
+**4th-level Evocation**
+
+**Casting Time**: 1 action
+
+**Range**: 300 feet
+
+**Components**: V, S, M (a mitten)
+
+**Duration**: Instantaneous
+
+Hail falls in a 20-foot-radius, 40-foot-high Cylinder centered on a point within range. Each creature in the Cylinder makes a Dexterity saving throw. A creature takes 2d10 Bludgeoning damage and 4d6 Cold damage on a failed save or half as much damage on a successful one.
+
+Hailstones turn ground in the Cylinder into Difficult Terrain until the end of your next turn.
+
+***Using a Higher-Level Spell Slot.***
+
+The Bludgeoning damage increases by 2d8 for each spell slot level above 4.

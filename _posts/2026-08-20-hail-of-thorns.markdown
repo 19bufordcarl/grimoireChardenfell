@@ -1,0 +1,25 @@
+---
+layout: post
+title: "Hail of Thorns"
+date: 2026-08-20
+sources: [XPHB.283]
+tags: [ranger, level1, bonus, conjuration]
+subtags:
+  - damage: piercing
+---
+
+**1st-level Conjuration**
+
+**Casting Time**: 1 bonus action (which you take immediately after hitting a creature with a Ranged weapon)
+
+**Range**: Self
+
+**Components**: V
+
+**Duration**: Instantaneous
+
+As you hit the creature, this spell creates a rain of thorns that sprouts from your Ranged weapon or ammunition. The target of the attack and each creature within 5 feet of it make a Dexterity saving throw, taking 1d10 Piercing damage on a failed save or half as much damage on a successful one.
+
+***Using a Higher-Level Spell Slot.***
+
+The damage increases by 1d10 for each spell slot level above 1.

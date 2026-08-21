@@ -1,24 +1,26 @@
-- name: Player’s Handbook
+- name: Player's Handbook (2024)
+  source: XPHB
+- name: Player's Handbook (2014)
   source: PHB
-- name: Sword Coast Adveturer’s Guide
+- name: Sword Coast Adventurer's Guide
   source: SCAG
-- name: Elemental Evil Player’s Companion
+- name: Elemental Evil Player's Companion
   source: EE
-- name: Xanathar’s Guide to Everything
+- name: Xanathar's Guide to Everything
   source: XGE
-- name: Tasha’s Cauldron of Everything
+- name: Tasha's Cauldron of Everything
   source: TCE
-- name: Fizban’s Treasury of Dragons
+- name: Fizban's Treasury of Dragons
   source: FTD
 - name: "Strixhaven: A Curriculum of Chaos"
   source: SCC
-- name: "Explorer’s Guide to Wildemount"
+- name: "Explorer's Guide to Wildemount"
   source: EGW
 - name: "Acquisitions Incorporated"
   source: AI
-- name: "Astral Adventurer’s Guide"
+- name: "Astral Adventurer's Guide"
   source: AAG
-- name: "Guildmasters’ Guide to Ravnica"
+- name: "Guildmasters' Guide to Ravnica"
   source: GGR
 - name: "Icewind Dale: Rime of the Frostmaiden"
   source: IDRF

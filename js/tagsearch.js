@@ -4,7 +4,21 @@ function atomMatches(atom, tagArray) {
         atom = atom.substring(1);
         flip = !flip;
     }
-    const value = atom === '' || atom === 'true' || atom !== 'false' && tagArray.includes(atom);
+    
+    // NEW: Check if atom matches any tag, including partial matches after colons
+    const value = atom === '' || atom === 'true' || atom !== 'false' && tagArray.some(tag => {
+        // Exact match
+        if (tag === atom) return true;
+        
+        // Check if atom matches the part after a colon in a tag
+        // e.g., atom="fiend" matches tag="warlock:fiend"
+        if (tag.includes(':') && tag.split(':').some(part => part === atom)) {
+            return true;
+        }
+        
+        return false;
+    });
+    
     return flip ^ value;
 }
 

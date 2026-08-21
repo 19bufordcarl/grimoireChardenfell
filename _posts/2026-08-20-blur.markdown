@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Blur"
+date: 2026-08-20
+sources: [XPHB.248]
+tags: [sorcerer, wizard, level2, action, concentration, illusion]
+subtags:
+  - druid: land
+---
+
+**2nd-level Illusion**
+
+**Casting Time**: 1 action
+
+**Range**: Self
+
+**Components**: V
+
+**Duration**: 1 minute (concentration)
+
+Your body becomes blurred. For the duration, any creature has Disadvantage on attack rolls against you. An attacker is immune to this effect if it perceives you with Blindsight or Truesight.

@@ -1,0 +1,24 @@
+---
+layout: post
+title: "Fear"
+date: 2026-08-20
+sources: [XPHB.271]
+tags: [bard, sorcerer, warlock, wizard, level3, action, concentration, illusion]
+subtags:
+  - ranger: gloom-stalker
+  - sorcerer: draconic-sorcery
+---
+
+**3rd-level Illusion**
+
+**Casting Time**: 1 action
+
+**Range**: Self (30-foot cone)
+
+**Components**: V, S, M (a white feather)
+
+**Duration**: 1 minute (concentration)
+
+Each creature in a 30-foot Cone must succeed on a Wisdom saving throw or drop whatever it is holding and have the Frightened condition for the duration.
+
+A Frightened creature takes the Dash action and moves away from you by the safest route on each of its turns unless there is nowhere to move. If the creature ends its turn in a space where it doesn't have line of sight to you, the creature makes a Wisdom saving throw. On a successful save, the spell ends on that creature.
