@@ -2,7 +2,7 @@
 layout: post
 title: "Plane Shift"
 date: 2026-08-20
-sources: [XPHB.305]
+sources: [Player's Handbook (2024) Page 305]
 tags: [cleric, druid, sorcerer, warlock, wizard, level7, action, conjuration]
 ---
 

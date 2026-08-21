@@ -2,7 +2,7 @@
 layout: post
 title: "Death Ward"
 date: 2026-08-20
-sources: [XPHB.261]
+sources: [Player's Handbook (2024) Page 261]
 tags: [cleric, paladin, level4, action, abjuration]
 subtags:
   - cleric: life

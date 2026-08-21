@@ -2,7 +2,7 @@
 layout: post
 title: "Summon Undead"
 date: 2026-08-20
-sources: [XPHB.328]
+sources: [Player's Handbook (2024) Page 328]
 tags: [warlock, wizard, level3, action, concentration, necromancy]
 ---
 

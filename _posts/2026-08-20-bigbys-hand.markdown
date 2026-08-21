@@ -2,7 +2,7 @@
 layout: post
 title: "Bigby's Hand"
 date: 2026-08-20
-sources: [XPHB.246]
+sources: [Player's Handbook (2024) Page 246]
 tags: [sorcerer, wizard, level5, action, concentration, evocation]
 subtags:
   - damage: bludgeoning

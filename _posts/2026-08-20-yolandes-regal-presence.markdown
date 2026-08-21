@@ -2,7 +2,7 @@
 layout: post
 title: "Yolande's Regal Presence"
 date: 2026-08-20
-sources: [XPHB.343]
+sources: [Player's Handbook (2024) Page 343]
 tags: [bard, wizard, level5, action, concentration, enchantment]
 subtags:
   - paladin: glory

@@ -2,7 +2,7 @@
 layout: post
 title: "Summon Celestial"
 date: 2026-08-20
-sources: [XPHB.323]
+sources: [Player's Handbook (2024) Page 323]
 tags: [cleric, paladin, level5, action, concentration, conjuration]
 subtags:
   - warlock: celestial

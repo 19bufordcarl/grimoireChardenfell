@@ -2,7 +2,7 @@
 layout: post
 title: "Delayed Blast Fireball"
 date: 2026-08-20
-sources: [XPHB.261]
+sources: [Player's Handbook (2024) Page 261]
 tags: [sorcerer, wizard, level7, action, concentration, evocation]
 subtags:
   - damage: fire

@@ -2,7 +2,7 @@
 layout: post
 title: "Silence"
 date: 2026-08-20
-sources: [XPHB.316]
+sources: [Player's Handbook (2024) Page 316]
 tags: [bard, cleric, ranger, level2, action, ritual, concentration, illusion]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Staggering Smite"
 date: 2026-08-20
-sources: [XPHB.320]
+sources: [Player's Handbook (2024) Page 320]
 tags: [paladin, level4, bonus, enchantment]
 subtags:
   - damage: psychic

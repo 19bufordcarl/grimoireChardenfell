@@ -2,7 +2,7 @@
 layout: post
 title: "Contagion"
 date: 2026-08-20
-sources: [XPHB.256]
+sources: [Player's Handbook (2024) Page 256]
 tags: [cleric, druid, level5, action, necromancy]
 subtags:
   - damage: necrotic

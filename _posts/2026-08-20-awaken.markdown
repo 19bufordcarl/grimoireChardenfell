@@ -2,7 +2,7 @@
 layout: post
 title: "Awaken"
 date: 2026-08-20
-sources: [XPHB.244]
+sources: [Player's Handbook (2024) Page 244]
 tags: [bard, druid, level5, long, transmutation]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Speak with Dead"
 date: 2026-08-20
-sources: [XPHB.318]
+sources: [Player's Handbook (2024) Page 318]
 tags: [bard, cleric, wizard, level3, action, necromancy]
 ---
 

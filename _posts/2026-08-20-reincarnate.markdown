@@ -2,7 +2,7 @@
 layout: post
 title: "Reincarnate"
 date: 2026-08-20
-sources: [XPHB.311]
+sources: [Player's Handbook (2024) Page 311]
 tags: [druid, level5, long, necromancy]
 ---
 

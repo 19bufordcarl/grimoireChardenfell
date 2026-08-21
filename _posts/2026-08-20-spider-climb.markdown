@@ -2,7 +2,7 @@
 layout: post
 title: "Spider Climb"
 date: 2026-08-20
-sources: [XPHB.319]
+sources: [Player's Handbook (2024) Page 319]
 tags: [sorcerer, warlock, wizard, level2, action, concentration, transmutation]
 ---
 

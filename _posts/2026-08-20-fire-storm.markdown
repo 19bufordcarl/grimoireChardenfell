@@ -2,7 +2,7 @@
 layout: post
 title: "Fire Storm"
 date: 2026-08-20
-sources: [XPHB.275]
+sources: [Player's Handbook (2024) Page 275]
 tags: [cleric, druid, sorcerer, level7, action, evocation]
 subtags:
   - damage: fire

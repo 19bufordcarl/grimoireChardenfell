@@ -2,7 +2,7 @@
 layout: post
 title: "Word of Radiance"
 date: 2026-08-20
-sources: [XPHB.343]
+sources: [Player's Handbook (2024) Page 343]
 tags: [cleric, cantrip, action, evocation]
 subtags:
   - damage: radiant

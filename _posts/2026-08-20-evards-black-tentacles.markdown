@@ -2,7 +2,7 @@
 layout: post
 title: "Evard's Black Tentacles"
 date: 2026-08-20
-sources: [XPHB.270]
+sources: [Player's Handbook (2024) Page 270]
 tags: [wizard, level4, action, concentration, conjuration]
 subtags:
   - sorcerer: aberrant-sorcery

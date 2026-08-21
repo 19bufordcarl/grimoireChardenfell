@@ -2,7 +2,7 @@
 layout: post
 title: "Synaptic Static"
 date: 2026-08-20
-sources: [XPHB.330]
+sources: [Player's Handbook (2024) Page 330]
 tags: [bard, sorcerer, warlock, wizard, level5, action, enchantment]
 subtags:
   - damage: psychic

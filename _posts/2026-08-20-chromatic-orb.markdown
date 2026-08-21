@@ -2,7 +2,7 @@
 layout: post
 title: "Chromatic Orb"
 date: 2026-08-20
-sources: [XPHB.249]
+sources: [Player's Handbook (2024) Page 249]
 tags: [sorcerer, wizard, level1, action, evocation]
 subtags:
   - sorcerer: draconic-sorcery

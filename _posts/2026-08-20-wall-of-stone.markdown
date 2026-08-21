@@ -2,7 +2,7 @@
 layout: post
 title: "Wall of Stone"
 date: 2026-08-20
-sources: [XPHB.339]
+sources: [Player's Handbook (2024) Page 339]
 tags: [druid, sorcerer, wizard, level5, action, concentration, evocation]
 subtags:
   - druid: land

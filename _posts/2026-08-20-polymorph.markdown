@@ -2,7 +2,7 @@
 layout: post
 title: "Polymorph"
 date: 2026-08-20
-sources: [XPHB.306]
+sources: [Player's Handbook (2024) Page 306]
 tags: [bard, druid, sorcerer, wizard, level4, action, concentration, transmutation]
 subtags:
   - druid: land

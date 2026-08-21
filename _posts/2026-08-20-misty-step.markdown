@@ -2,7 +2,7 @@
 layout: post
 title: "Misty Step"
 date: 2026-08-20
-sources: [XPHB.299]
+sources: [Player's Handbook (2024) Page 299]
 tags: [sorcerer, warlock, wizard, level2, bonus, conjuration]
 subtags:
   - druid: land

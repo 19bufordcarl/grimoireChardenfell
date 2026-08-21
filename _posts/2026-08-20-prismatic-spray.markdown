@@ -2,7 +2,7 @@
 layout: post
 title: "Prismatic Spray"
 date: 2026-08-20
-sources: [XPHB.307]
+sources: [Player's Handbook (2024) Page 307]
 tags: [bard, sorcerer, wizard, level7, action, evocation]
 subtags:
   - damage: acid

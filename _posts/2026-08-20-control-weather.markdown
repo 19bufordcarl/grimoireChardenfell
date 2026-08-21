@@ -2,7 +2,7 @@
 layout: post
 title: "Control Weather"
 date: 2026-08-20
-sources: [XPHB.257]
+sources: [Player's Handbook (2024) Page 257]
 tags: [cleric, druid, wizard, level8, long, concentration, transmutation]
 ---
 

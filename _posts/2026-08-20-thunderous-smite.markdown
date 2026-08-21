@@ -2,7 +2,7 @@
 layout: post
 title: "Thunderous Smite"
 date: 2026-08-20
-sources: [XPHB.334]
+sources: [Player's Handbook (2024) Page 334]
 tags: [paladin, level1, bonus, evocation]
 subtags:
   - damage: thunder

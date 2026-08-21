@@ -2,7 +2,7 @@
 layout: post
 title: "Lesser Restoration"
 date: 2026-08-20
-sources: [XPHB.291]
+sources: [Player's Handbook (2024) Page 291]
 tags: [bard, cleric, druid, paladin, ranger, level2, bonus, abjuration]
 subtags:
   - cleric: life

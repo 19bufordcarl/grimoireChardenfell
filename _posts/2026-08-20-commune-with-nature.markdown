@@ -2,7 +2,7 @@
 layout: post
 title: "Commune with Nature"
 date: 2026-08-20
-sources: [XPHB.252]
+sources: [Player's Handbook (2024) Page 252]
 tags: [druid, ranger, level5, long, ritual, divination]
 subtags:
   - paladin: ancients

@@ -2,7 +2,7 @@
 layout: post
 title: "Rary's Telepathic Bond"
 date: 2026-08-20
-sources: [XPHB.311]
+sources: [Player's Handbook (2024) Page 311]
 tags: [bard, wizard, level5, action, ritual, divination]
 subtags:
   - sorcerer: aberrant-sorcery

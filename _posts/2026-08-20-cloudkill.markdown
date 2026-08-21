@@ -2,7 +2,7 @@
 layout: post
 title: "Cloudkill"
 date: 2026-08-20
-sources: [XPHB.251]
+sources: [Player's Handbook (2024) Page 251]
 tags: [sorcerer, wizard, level5, action, concentration, conjuration]
 subtags:
   - damage: poison

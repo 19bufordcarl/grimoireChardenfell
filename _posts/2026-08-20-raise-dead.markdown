@@ -2,7 +2,7 @@
 layout: post
 title: "Raise Dead"
 date: 2026-08-20
-sources: [XPHB.310]
+sources: [Player's Handbook (2024) Page 310]
 tags: [bard, cleric, paladin, level5, long, necromancy]
 ---
 

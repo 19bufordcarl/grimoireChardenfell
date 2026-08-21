@@ -2,7 +2,7 @@
 layout: post
 title: "Beacon of Hope"
 date: 2026-08-20
-sources: [XPHB.245]
+sources: [Player's Handbook (2024) Page 245]
 tags: [cleric, level3, action, concentration, abjuration]
 subtags:
   - paladin: devotion

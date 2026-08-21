@@ -2,7 +2,7 @@
 layout: post
 title: "Earthquake"
 date: 2026-08-20
-sources: [XPHB.267]
+sources: [Player's Handbook (2024) Page 267]
 tags: [cleric, druid, sorcerer, level8, action, concentration, transmutation]
 subtags:
   - damage: bludgeoning

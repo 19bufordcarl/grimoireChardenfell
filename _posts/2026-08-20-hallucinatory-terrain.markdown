@@ -2,7 +2,7 @@
 layout: post
 title: "Hallucinatory Terrain"
 date: 2026-08-20
-sources: [XPHB.283]
+sources: [Player's Handbook (2024) Page 283]
 tags: [bard, druid, warlock, wizard, level4, long, illusion]
 ---
 

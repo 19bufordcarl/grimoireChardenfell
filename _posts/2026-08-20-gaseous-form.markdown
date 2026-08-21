@@ -2,7 +2,7 @@
 layout: post
 title: "Gaseous Form"
 date: 2026-08-20
-sources: [XPHB.277]
+sources: [Player's Handbook (2024) Page 277]
 tags: [sorcerer, warlock, wizard, level3, action, concentration, transmutation]
 ---
 

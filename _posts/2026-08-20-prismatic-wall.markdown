@@ -2,7 +2,7 @@
 layout: post
 title: "Prismatic Wall"
 date: 2026-08-20
-sources: [XPHB.308]
+sources: [Player's Handbook (2024) Page 308]
 tags: [bard, wizard, level9, action, abjuration]
 subtags:
   - damage: acid

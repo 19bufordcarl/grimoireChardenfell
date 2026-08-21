@@ -2,7 +2,7 @@
 layout: post
 title: "Divination"
 date: 2026-08-20
-sources: [XPHB.264]
+sources: [Player's Handbook (2024) Page 264]
 tags: [cleric, druid, wizard, level4, action, ritual, divination]
 ---
 

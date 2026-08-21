@@ -2,7 +2,7 @@
 layout: post
 title: "Spirit Guardians"
 date: 2026-08-20
-sources: [XPHB.319]
+sources: [Player's Handbook (2024) Page 319]
 tags: [cleric, level3, action, concentration, conjuration]
 subtags:
   - cleric: war

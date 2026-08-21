@@ -2,7 +2,7 @@
 layout: post
 title: "Scorching Ray"
 date: 2026-08-20
-sources: [XPHB.313]
+sources: [Player's Handbook (2024) Page 313]
 tags: [sorcerer, wizard, level2, action, evocation]
 subtags:
   - cleric: light

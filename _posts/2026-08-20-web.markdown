@@ -2,7 +2,7 @@
 layout: post
 title: "Web"
 date: 2026-08-20
-sources: [XPHB.340]
+sources: [Player's Handbook (2024) Page 340]
 tags: [sorcerer, wizard, level2, action, concentration, conjuration]
 subtags:
   - druid: land

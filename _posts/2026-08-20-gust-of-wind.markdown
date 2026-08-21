@@ -2,7 +2,7 @@
 layout: post
 title: "Gust of Wind"
 date: 2026-08-20
-sources: [XPHB.282]
+sources: [Player's Handbook (2024) Page 282]
 tags: [druid, ranger, sorcerer, wizard, level2, action, concentration, evocation]
 subtags:
   - druid: sea

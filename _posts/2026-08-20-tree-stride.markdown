@@ -2,7 +2,7 @@
 layout: post
 title: "Tree Stride"
 date: 2026-08-20
-sources: [XPHB.335]
+sources: [Player's Handbook (2024) Page 335]
 tags: [druid, ranger, level5, action, concentration, conjuration]
 subtags:
   - druid: land

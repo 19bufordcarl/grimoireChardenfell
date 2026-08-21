@@ -2,7 +2,7 @@
 layout: post
 title: "Invisibility"
 date: 2026-08-20
-sources: [XPHB.289]
+sources: [Player's Handbook (2024) Page 289]
 tags: [bard, sorcerer, warlock, wizard, level2, action, concentration, illusion]
 subtags:
   - cleric: trickery

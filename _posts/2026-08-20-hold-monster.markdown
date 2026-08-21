@@ -2,7 +2,7 @@
 layout: post
 title: "Hold Monster"
 date: 2026-08-20
-sources: [XPHB.285]
+sources: [Player's Handbook (2024) Page 285]
 tags: [bard, sorcerer, warlock, wizard, level5, action, concentration, enchantment]
 subtags:
   - cleric: war

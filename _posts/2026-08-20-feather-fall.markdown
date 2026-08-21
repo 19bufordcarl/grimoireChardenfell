@@ -2,7 +2,7 @@
 layout: post
 title: "Feather Fall"
 date: 2026-08-20
-sources: [XPHB.271]
+sources: [Player's Handbook (2024) Page 271]
 tags: [bard, sorcerer, wizard, level1, reaction, transmutation]
 ---
 

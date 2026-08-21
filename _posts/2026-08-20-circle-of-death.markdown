@@ -2,7 +2,7 @@
 layout: post
 title: "Circle of Death"
 date: 2026-08-20
-sources: [XPHB.250]
+sources: [Player's Handbook (2024) Page 250]
 tags: [sorcerer, warlock, wizard, level6, action, necromancy]
 subtags:
   - damage: necrotic

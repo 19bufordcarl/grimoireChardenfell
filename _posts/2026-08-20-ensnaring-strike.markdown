@@ -2,7 +2,7 @@
 layout: post
 title: "Ensnaring Strike"
 date: 2026-08-20
-sources: [XPHB.268]
+sources: [Player's Handbook (2024) Page 268]
 tags: [ranger, level1, bonus, concentration, conjuration]
 subtags:
   - paladin: ancients

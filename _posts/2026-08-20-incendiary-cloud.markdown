@@ -2,7 +2,7 @@
 layout: post
 title: "Incendiary Cloud"
 date: 2026-08-20
-sources: [XPHB.288]
+sources: [Player's Handbook (2024) Page 288]
 tags: [druid, sorcerer, wizard, level8, action, concentration, conjuration]
 subtags:
   - damage: fire

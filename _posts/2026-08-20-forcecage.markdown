@@ -2,7 +2,7 @@
 layout: post
 title: "Forcecage"
 date: 2026-08-20
-sources: [XPHB.276]
+sources: [Player's Handbook (2024) Page 276]
 tags: [bard, warlock, wizard, level7, action, concentration, evocation]
 ---
 

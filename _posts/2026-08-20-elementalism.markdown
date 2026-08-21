@@ -2,7 +2,7 @@
 layout: post
 title: "Elementalism"
 date: 2026-08-20
-sources: [XPHB.267]
+sources: [Player's Handbook (2024) Page 267]
 tags: [druid, sorcerer, wizard, cantrip, action, transmutation]
 subtags:
   - monk: warrior-of-the-elements

@@ -2,7 +2,7 @@
 layout: post
 title: "Forbiddance"
 date: 2026-08-20
-sources: [XPHB.276]
+sources: [Player's Handbook (2024) Page 276]
 tags: [cleric, level6, long, ritual, abjuration]
 subtags:
   - damage: necrotic

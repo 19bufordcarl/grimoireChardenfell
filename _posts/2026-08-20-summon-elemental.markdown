@@ -2,7 +2,7 @@
 layout: post
 title: "Summon Elemental"
 date: 2026-08-20
-sources: [XPHB.325]
+sources: [Player's Handbook (2024) Page 325]
 tags: [druid, ranger, wizard, level4, action, concentration, conjuration]
 ---
 

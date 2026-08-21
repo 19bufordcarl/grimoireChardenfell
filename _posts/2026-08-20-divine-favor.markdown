@@ -2,7 +2,7 @@
 layout: post
 title: "Divine Favor"
 date: 2026-08-20
-sources: [XPHB.265]
+sources: [Player's Handbook (2024) Page 265]
 tags: [paladin, level1, bonus, transmutation]
 subtags:
   - damage: radiant

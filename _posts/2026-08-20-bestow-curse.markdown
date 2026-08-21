@@ -2,7 +2,7 @@
 layout: post
 title: "Bestow Curse"
 date: 2026-08-20
-sources: [XPHB.246]
+sources: [Player's Handbook (2024) Page 246]
 tags: [bard, cleric, wizard, level3, action, concentration, necromancy]
 subtags:
   - damage: necrotic

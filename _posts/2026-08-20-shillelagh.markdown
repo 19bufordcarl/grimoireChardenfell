@@ -2,7 +2,7 @@
 layout: post
 title: "Shillelagh"
 date: 2026-08-20
-sources: [XPHB.316]
+sources: [Player's Handbook (2024) Page 316]
 tags: [druid, cantrip, bonus, transmutation]
 subtags:
   - damage: force

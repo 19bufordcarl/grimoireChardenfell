@@ -2,7 +2,7 @@
 layout: post
 title: "Grasping Vine"
 date: 2026-08-20
-sources: [XPHB.280]
+sources: [Player's Handbook (2024) Page 280]
 tags: [druid, ranger, level4, bonus, concentration, conjuration]
 subtags:
   - damage: bludgeoning

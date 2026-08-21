@@ -2,7 +2,7 @@
 layout: post
 title: "Disguise Self"
 date: 2026-08-20
-sources: [XPHB.262]
+sources: [Player's Handbook (2024) Page 262]
 tags: [bard, sorcerer, wizard, level1, action, illusion]
 subtags:
   - cleric: trickery

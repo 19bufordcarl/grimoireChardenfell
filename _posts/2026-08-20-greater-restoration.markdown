@@ -2,7 +2,7 @@
 layout: post
 title: "Greater Restoration"
 date: 2026-08-20
-sources: [XPHB.281]
+sources: [Player's Handbook (2024) Page 281]
 tags: [bard, cleric, druid, paladin, ranger, level5, action, abjuration]
 subtags:
   - cleric: life

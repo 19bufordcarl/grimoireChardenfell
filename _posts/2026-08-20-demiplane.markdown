@@ -2,7 +2,7 @@
 layout: post
 title: "Demiplane"
 date: 2026-08-20
-sources: [XPHB.261]
+sources: [Player's Handbook (2024) Page 261]
 tags: [sorcerer, warlock, wizard, level8, action, conjuration]
 ---
 

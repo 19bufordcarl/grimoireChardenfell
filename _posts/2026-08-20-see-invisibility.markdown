@@ -2,7 +2,7 @@
 layout: post
 title: "See Invisibility"
 date: 2026-08-20
-sources: [XPHB.314]
+sources: [Player's Handbook (2024) Page 314]
 tags: [bard, sorcerer, wizard, level2, action, divination]
 subtags:
   - cleric: light

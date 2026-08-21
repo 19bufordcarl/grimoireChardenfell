@@ -2,7 +2,7 @@
 layout: post
 title: "Summon Fey"
 date: 2026-08-20
-sources: [XPHB.326]
+sources: [Player's Handbook (2024) Page 326]
 tags: [druid, ranger, warlock, wizard, level3, action, concentration, conjuration]
 subtags:
   - ranger: fey-wanderer

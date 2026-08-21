@@ -2,7 +2,7 @@
 layout: post
 title: "Silent Image"
 date: 2026-08-20
-sources: [XPHB.317]
+sources: [Player's Handbook (2024) Page 317]
 tags: [bard, sorcerer, wizard, level1, action, concentration, illusion]
 ---
 

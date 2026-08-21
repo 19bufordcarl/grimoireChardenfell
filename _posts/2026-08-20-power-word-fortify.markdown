@@ -2,7 +2,7 @@
 layout: post
 title: "Power Word Fortify"
 date: 2026-08-20
-sources: [XPHB.306]
+sources: [Player's Handbook (2024) Page 306]
 tags: [bard, cleric, level7, action, enchantment]
 ---
 

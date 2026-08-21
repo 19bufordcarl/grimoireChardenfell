@@ -2,7 +2,7 @@
 layout: post
 title: "Magic Missile"
 date: 2026-08-20
-sources: [XPHB.295]
+sources: [Player's Handbook (2024) Page 295]
 tags: [sorcerer, wizard, level1, action, evocation]
 subtags:
   - damage: force

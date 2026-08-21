@@ -2,7 +2,7 @@
 layout: post
 title: "Elemental Weapon"
 date: 2026-08-20
-sources: [XPHB.267]
+sources: [Player's Handbook (2024) Page 267]
 tags: [druid, paladin, ranger, level3, action, concentration, transmutation]
 subtags:
   - damage: acid

@@ -2,7 +2,7 @@
 layout: post
 title: "Dominate Beast"
 date: 2026-08-20
-sources: [XPHB.265]
+sources: [Player's Handbook (2024) Page 265]
 tags: [druid, ranger, sorcerer, level4, action, concentration, enchantment]
 subtags:
   - warlock: archfey

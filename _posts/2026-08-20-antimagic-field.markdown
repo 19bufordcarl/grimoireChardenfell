@@ -2,7 +2,7 @@
 layout: post
 title: "Antimagic Field"
 date: 2026-08-20
-sources: [XPHB.241]
+sources: [Player's Handbook (2024) Page 241]
 tags: [cleric, wizard, level8, action, concentration, abjuration]
 ---
 

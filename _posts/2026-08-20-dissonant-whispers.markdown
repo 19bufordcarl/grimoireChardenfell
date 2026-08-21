@@ -2,7 +2,7 @@
 layout: post
 title: "Dissonant Whispers"
 date: 2026-08-20
-sources: [XPHB.264]
+sources: [Player's Handbook (2024) Page 264]
 tags: [bard, level1, action, enchantment]
 subtags:
   - sorcerer: aberrant-sorcery

@@ -2,7 +2,7 @@
 layout: post
 title: "Alter Self"
 date: 2026-08-20
-sources: [XPHB.239]
+sources: [Player's Handbook (2024) Page 239]
 tags: [sorcerer, wizard, level2, action, concentration, transmutation]
 subtags:
   - sorcerer: draconic-sorcery

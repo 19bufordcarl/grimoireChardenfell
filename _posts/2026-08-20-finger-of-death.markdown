@@ -2,7 +2,7 @@
 layout: post
 title: "Finger of Death"
 date: 2026-08-20
-sources: [XPHB.273]
+sources: [Player's Handbook (2024) Page 273]
 tags: [sorcerer, warlock, wizard, level7, action, necromancy]
 subtags:
   - damage: necrotic

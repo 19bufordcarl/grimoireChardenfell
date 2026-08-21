@@ -2,7 +2,7 @@
 layout: post
 title: "Arcane Gate"
 date: 2026-08-20
-sources: [XPHB.242]
+sources: [Player's Handbook (2024) Page 242]
 tags: [sorcerer, warlock, wizard, level6, action, concentration, conjuration]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Vampiric Touch"
 date: 2026-08-20
-sources: [XPHB.337]
+sources: [Player's Handbook (2024) Page 337]
 tags: [sorcerer, warlock, wizard, level3, action, concentration, necromancy]
 subtags:
   - damage: necrotic

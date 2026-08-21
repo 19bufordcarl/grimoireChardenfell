@@ -2,7 +2,7 @@
 layout: post
 title: "Detect Thoughts"
 date: 2026-08-20
-sources: [XPHB.262]
+sources: [Player's Handbook (2024) Page 262]
 tags: [bard, sorcerer, wizard, level2, action, concentration, divination]
 subtags:
   - sorcerer: aberrant-sorcery

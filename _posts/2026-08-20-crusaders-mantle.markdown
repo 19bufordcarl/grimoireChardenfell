@@ -2,7 +2,7 @@
 layout: post
 title: "Crusader's Mantle"
 date: 2026-08-20
-sources: [XPHB.259]
+sources: [Player's Handbook (2024) Page 259]
 tags: [paladin, level3, action, concentration, evocation]
 subtags:
   - cleric: war

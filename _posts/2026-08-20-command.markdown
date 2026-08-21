@@ -2,7 +2,7 @@
 layout: post
 title: "Command"
 date: 2026-08-20
-sources: [XPHB.251]
+sources: [Player's Handbook (2024) Page 251]
 tags: [bard, cleric, paladin, level1, action, enchantment]
 subtags:
   - bard: college-of-glamour

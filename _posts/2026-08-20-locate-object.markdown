@@ -2,7 +2,7 @@
 layout: post
 title: "Locate Object"
 date: 2026-08-20
-sources: [XPHB.293]
+sources: [Player's Handbook (2024) Page 293]
 tags: [bard, cleric, druid, paladin, ranger, wizard, level2, action, concentration, divination]
 ---
 

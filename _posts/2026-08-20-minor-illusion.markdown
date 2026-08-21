@@ -2,7 +2,7 @@
 layout: post
 title: "Minor Illusion"
 date: 2026-08-20
-sources: [XPHB.298]
+sources: [Player's Handbook (2024) Page 298]
 tags: [bard, sorcerer, warlock, wizard, cantrip, action, illusion]
 subtags:
   - monk: warrior-of-shadow

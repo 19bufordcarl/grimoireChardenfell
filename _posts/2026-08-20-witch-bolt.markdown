@@ -2,7 +2,7 @@
 layout: post
 title: "Witch Bolt"
 date: 2026-08-20
-sources: [XPHB.343]
+sources: [Player's Handbook (2024) Page 343]
 tags: [sorcerer, warlock, wizard, level1, action, concentration, evocation]
 subtags:
   - damage: lightning

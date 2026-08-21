@@ -2,7 +2,7 @@
 layout: post
 title: "Thaumaturgy"
 date: 2026-08-20
-sources: [XPHB.333]
+sources: [Player's Handbook (2024) Page 333]
 tags: [cleric, cantrip, action, transmutation]
 ---
 

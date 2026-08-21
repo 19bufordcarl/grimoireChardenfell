@@ -2,7 +2,7 @@
 layout: post
 title: "Color Spray"
 date: 2026-08-20
-sources: [XPHB.251]
+sources: [Player's Handbook (2024) Page 251]
 tags: [bard, sorcerer, wizard, level1, action, illusion]
 ---
 

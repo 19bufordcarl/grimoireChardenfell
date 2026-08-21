@@ -2,7 +2,7 @@
 layout: post
 title: "Hypnotic Pattern"
 date: 2026-08-20
-sources: [XPHB.287]
+sources: [Player's Handbook (2024) Page 287]
 tags: [bard, sorcerer, warlock, wizard, level3, action, concentration, illusion]
 subtags:
   - cleric: trickery

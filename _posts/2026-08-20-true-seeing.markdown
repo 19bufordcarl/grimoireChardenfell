@@ -2,7 +2,7 @@
 layout: post
 title: "True Seeing"
 date: 2026-08-20
-sources: [XPHB.336]
+sources: [Player's Handbook (2024) Page 336]
 tags: [bard, cleric, sorcerer, warlock, wizard, level6, action, divination]
 ---
 

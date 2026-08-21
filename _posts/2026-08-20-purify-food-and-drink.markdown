@@ -2,7 +2,7 @@
 layout: post
 title: "Purify Food and Drink"
 date: 2026-08-20
-sources: [XPHB.310]
+sources: [Player's Handbook (2024) Page 310]
 tags: [cleric, druid, paladin, level1, action, ritual, transmutation]
 ---
 

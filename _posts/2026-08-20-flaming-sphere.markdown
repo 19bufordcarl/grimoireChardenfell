@@ -2,7 +2,7 @@
 layout: post
 title: "Flaming Sphere"
 date: 2026-08-20
-sources: [XPHB.275]
+sources: [Player's Handbook (2024) Page 275]
 tags: [druid, sorcerer, wizard, level2, action, concentration, conjuration]
 subtags:
   - damage: fire

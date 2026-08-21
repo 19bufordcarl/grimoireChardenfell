@@ -2,7 +2,7 @@
 layout: post
 title: "Wall of Ice"
 date: 2026-08-20
-sources: [XPHB.339]
+sources: [Player's Handbook (2024) Page 339]
 tags: [wizard, level6, action, concentration, evocation]
 subtags:
   - damage: cold

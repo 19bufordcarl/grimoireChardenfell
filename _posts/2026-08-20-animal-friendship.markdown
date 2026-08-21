@@ -2,7 +2,7 @@
 layout: post
 title: "Animal Friendship"
 date: 2026-08-20
-sources: [XPHB.239]
+sources: [Player's Handbook (2024) Page 239]
 tags: [bard, druid, ranger, level1, action, enchantment]
 ---
 

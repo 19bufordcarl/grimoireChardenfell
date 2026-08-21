@@ -2,7 +2,7 @@
 layout: post
 title: "Sequester"
 date: 2026-08-20
-sources: [XPHB.315]
+sources: [Player's Handbook (2024) Page 315]
 tags: [wizard, level7, action, transmutation]
 ---
 

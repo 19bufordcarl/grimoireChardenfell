@@ -2,7 +2,7 @@
 layout: post
 title: "Contact Other Plane"
 date: 2026-08-20
-sources: [XPHB.255]
+sources: [Player's Handbook (2024) Page 255]
 tags: [warlock, wizard, level5, long, ritual, divination]
 subtags:
   - damage: psychic

@@ -2,7 +2,7 @@
 layout: post
 title: "Telepathy"
 date: 2026-08-20
-sources: [XPHB.331]
+sources: [Player's Handbook (2024) Page 331]
 tags: [wizard, level8, action, divination]
 ---
 

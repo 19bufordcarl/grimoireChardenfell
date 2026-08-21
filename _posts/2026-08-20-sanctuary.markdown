@@ -2,7 +2,7 @@
 layout: post
 title: "Sanctuary"
 date: 2026-08-20
-sources: [XPHB.313]
+sources: [Player's Handbook (2024) Page 313]
 tags: [cleric, level1, bonus, abjuration]
 ---
 

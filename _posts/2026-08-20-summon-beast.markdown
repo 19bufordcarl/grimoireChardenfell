@@ -2,7 +2,7 @@
 layout: post
 title: "Summon Beast"
 date: 2026-08-20
-sources: [XPHB.322]
+sources: [Player's Handbook (2024) Page 322]
 tags: [druid, ranger, level2, action, concentration, conjuration]
 subtags:
   - wizard: illusionist

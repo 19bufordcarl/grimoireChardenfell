@@ -2,7 +2,7 @@
 layout: post
 title: "Locate Creature"
 date: 2026-08-20
-sources: [XPHB.292]
+sources: [Player's Handbook (2024) Page 292]
 tags: [bard, cleric, druid, paladin, ranger, wizard, level4, action, concentration, divination]
 ---
 

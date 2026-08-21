@@ -2,7 +2,7 @@
 layout: post
 title: "Passwall"
 date: 2026-08-20
-sources: [XPHB.304]
+sources: [Player's Handbook (2024) Page 304]
 tags: [wizard, level5, action, transmutation]
 ---
 

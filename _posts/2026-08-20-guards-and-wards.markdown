@@ -2,7 +2,7 @@
 layout: post
 title: "Guards and Wards"
 date: 2026-08-20
-sources: [XPHB.282]
+sources: [Player's Handbook (2024) Page 282]
 tags: [bard, wizard, level6, long, abjuration]
 ---
 

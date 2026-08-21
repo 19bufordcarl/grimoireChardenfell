@@ -2,7 +2,7 @@
 layout: post
 title: "Shocking Grasp"
 date: 2026-08-20
-sources: [XPHB.316]
+sources: [Player's Handbook (2024) Page 316]
 tags: [sorcerer, wizard, cantrip, action, evocation]
 subtags:
   - druid: land

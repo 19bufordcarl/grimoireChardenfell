@@ -2,7 +2,7 @@
 layout: post
 title: "Magic Mouth"
 date: 2026-08-20
-sources: [XPHB.295]
+sources: [Player's Handbook (2024) Page 295]
 tags: [bard, wizard, level2, long, ritual, illusion]
 ---
 

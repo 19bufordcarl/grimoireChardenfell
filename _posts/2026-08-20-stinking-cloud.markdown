@@ -2,7 +2,7 @@
 layout: post
 title: "Stinking Cloud"
 date: 2026-08-20
-sources: [XPHB.321]
+sources: [Player's Handbook (2024) Page 321]
 tags: [bard, sorcerer, wizard, level3, action, concentration, conjuration]
 subtags:
   - druid: land

@@ -2,7 +2,7 @@
 layout: post
 title: "Antilife Shell"
 date: 2026-08-20
-sources: [XPHB.241]
+sources: [Player's Handbook (2024) Page 241]
 tags: [druid, level5, action, concentration, abjuration]
 ---
 

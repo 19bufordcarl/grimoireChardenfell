@@ -2,7 +2,7 @@
 layout: post
 title: "Counterspell"
 date: 2026-08-20
-sources: [XPHB.258]
+sources: [Player's Handbook (2024) Page 258]
 tags: [sorcerer, warlock, wizard, level3, reaction, abjuration]
 subtags:
   - wizard: abjurer

@@ -2,7 +2,7 @@
 layout: post
 title: "Dream"
 date: 2026-08-20
-sources: [XPHB.266]
+sources: [Player's Handbook (2024) Page 266]
 tags: [bard, warlock, wizard, level5, long, illusion]
 subtags:
   - damage: psychic

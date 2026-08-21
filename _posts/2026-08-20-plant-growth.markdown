@@ -2,7 +2,7 @@
 layout: post
 title: "Plant Growth"
 date: 2026-08-20
-sources: [XPHB.305]
+sources: [Player's Handbook (2024) Page 305]
 tags: [bard, druid, ranger, level3, action, transmutation]
 subtags:
   - paladin: ancients

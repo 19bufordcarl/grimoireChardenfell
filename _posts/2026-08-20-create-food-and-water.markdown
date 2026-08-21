@@ -2,7 +2,7 @@
 layout: post
 title: "Create Food and Water"
 date: 2026-08-20
-sources: [XPHB.258]
+sources: [Player's Handbook (2024) Page 258]
 tags: [cleric, paladin, level3, action, conjuration]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Detect Poison and Disease"
 date: 2026-08-20
-sources: [XPHB.262]
+sources: [Player's Handbook (2024) Page 262]
 tags: [cleric, druid, paladin, ranger, level1, action, ritual, concentration, divination]
 ---
 

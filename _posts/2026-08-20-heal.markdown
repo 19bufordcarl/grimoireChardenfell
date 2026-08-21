@@ -2,7 +2,7 @@
 layout: post
 title: "Heal"
 date: 2026-08-20
-sources: [XPHB.284]
+sources: [Player's Handbook (2024) Page 284]
 tags: [cleric, druid, level6, action, abjuration]
 ---
 

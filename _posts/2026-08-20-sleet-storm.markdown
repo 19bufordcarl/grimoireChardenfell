@@ -2,7 +2,7 @@
 layout: post
 title: "Sleet Storm"
 date: 2026-08-20
-sources: [XPHB.317]
+sources: [Player's Handbook (2024) Page 317]
 tags: [druid, sorcerer, wizard, level3, action, concentration, conjuration]
 subtags:
   - druid: land

@@ -2,7 +2,7 @@
 layout: post
 title: "Mordenkainen's Private Sanctum"
 date: 2026-08-20
-sources: [XPHB.301]
+sources: [Player's Handbook (2024) Page 301]
 tags: [wizard, level4, long, abjuration]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Toll the Dead"
 date: 2026-08-20
-sources: [XPHB.334]
+sources: [Player's Handbook (2024) Page 334]
 tags: [cleric, warlock, wizard, cantrip, action, necromancy]
 subtags:
   - damage: necrotic

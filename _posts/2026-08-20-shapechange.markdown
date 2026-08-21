@@ -2,7 +2,7 @@
 layout: post
 title: "Shapechange"
 date: 2026-08-20
-sources: [XPHB.315]
+sources: [Player's Handbook (2024) Page 315]
 tags: [druid, wizard, level9, action, concentration, transmutation]
 ---
 

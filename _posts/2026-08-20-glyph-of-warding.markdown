@@ -2,7 +2,7 @@
 layout: post
 title: "Glyph of Warding"
 date: 2026-08-20
-sources: [XPHB.279]
+sources: [Player's Handbook (2024) Page 279]
 tags: [bard, cleric, wizard, level3, long, abjuration]
 subtags:
   - damage: acid

@@ -2,7 +2,7 @@
 layout: post
 title: "Mordenkainen's Magnificent Mansion"
 date: 2026-08-20
-sources: [XPHB.300]
+sources: [Player's Handbook (2024) Page 300]
 tags: [bard, wizard, level7, long, conjuration]
 ---
 

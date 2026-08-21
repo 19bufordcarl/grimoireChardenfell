@@ -2,7 +2,7 @@
 layout: post
 title: "Conjure Woodland Beings"
 date: 2026-08-20
-sources: [XPHB.255]
+sources: [Player's Handbook (2024) Page 255]
 tags: [druid, ranger, level4, action, concentration, conjuration]
 subtags:
   - damage: force

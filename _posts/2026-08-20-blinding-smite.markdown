@@ -2,7 +2,7 @@
 layout: post
 title: "Blinding Smite"
 date: 2026-08-20
-sources: [XPHB.247]
+sources: [Player's Handbook (2024) Page 247]
 tags: [paladin, level3, bonus, evocation]
 subtags:
   - damage: radiant

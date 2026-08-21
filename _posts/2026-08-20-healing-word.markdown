@@ -2,7 +2,7 @@
 layout: post
 title: "Healing Word"
 date: 2026-08-20
-sources: [XPHB.284]
+sources: [Player's Handbook (2024) Page 284]
 tags: [bard, cleric, druid, level1, bonus, abjuration]
 ---
 

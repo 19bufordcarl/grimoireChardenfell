@@ -2,7 +2,7 @@
 layout: post
 title: "Swift Quiver"
 date: 2026-08-20
-sources: [XPHB.329]
+sources: [Player's Handbook (2024) Page 329]
 tags: [ranger, level5, bonus, concentration, transmutation]
 ---
 

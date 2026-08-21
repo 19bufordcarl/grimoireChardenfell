@@ -2,7 +2,7 @@
 layout: post
 title: "Aura of Vitality"
 date: 2026-08-20
-sources: [XPHB.244]
+sources: [Player's Handbook (2024) Page 244]
 tags: [cleric, druid, paladin, level3, action, concentration, abjuration]
 ---
 

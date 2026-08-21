@@ -2,7 +2,7 @@
 layout: post
 title: "Planar Ally"
 date: 2026-08-20
-sources: [XPHB.304]
+sources: [Player's Handbook (2024) Page 304]
 tags: [cleric, level6, long, conjuration]
 ---
 

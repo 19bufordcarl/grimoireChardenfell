@@ -2,7 +2,7 @@
 layout: post
 title: "Call Lightning"
 date: 2026-08-20
-sources: [XPHB.248]
+sources: [Player's Handbook (2024) Page 248]
 tags: [druid, level3, action, concentration, conjuration]
 subtags:
   - damage: lightning

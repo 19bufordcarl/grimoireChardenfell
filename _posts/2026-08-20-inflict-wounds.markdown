@@ -2,7 +2,7 @@
 layout: post
 title: "Inflict Wounds"
 date: 2026-08-20
-sources: [XPHB.288]
+sources: [Player's Handbook (2024) Page 288]
 tags: [cleric, level1, action, necromancy]
 subtags:
   - damage: necrotic

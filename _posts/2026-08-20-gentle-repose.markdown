@@ -2,7 +2,7 @@
 layout: post
 title: "Gentle Repose"
 date: 2026-08-20
-sources: [XPHB.278]
+sources: [Player's Handbook (2024) Page 278]
 tags: [cleric, paladin, wizard, level2, action, ritual, necromancy]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Expeditious Retreat"
 date: 2026-08-20
-sources: [XPHB.270]
+sources: [Player's Handbook (2024) Page 270]
 tags: [sorcerer, warlock, wizard, level1, bonus, concentration, transmutation]
 ---
 

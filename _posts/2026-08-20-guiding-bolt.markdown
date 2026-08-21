@@ -2,7 +2,7 @@
 layout: post
 title: "Guiding Bolt"
 date: 2026-08-20
-sources: [XPHB.282]
+sources: [Player's Handbook (2024) Page 282]
 tags: [cleric, level1, action, evocation]
 subtags:
   - cleric: war

@@ -2,7 +2,7 @@
 layout: post
 title: "Dragon's Breath"
 date: 2026-08-20
-sources: [XPHB.266]
+sources: [Player's Handbook (2024) Page 266]
 tags: [sorcerer, wizard, level2, bonus, concentration, transmutation]
 subtags:
   - sorcerer: draconic-sorcery

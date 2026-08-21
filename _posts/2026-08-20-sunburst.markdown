@@ -2,7 +2,7 @@
 layout: post
 title: "Sunburst"
 date: 2026-08-20
-sources: [XPHB.329]
+sources: [Player's Handbook (2024) Page 329]
 tags: [cleric, druid, sorcerer, wizard, level8, action, evocation]
 subtags:
   - damage: radiant

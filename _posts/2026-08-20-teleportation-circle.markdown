@@ -2,7 +2,7 @@
 layout: post
 title: "Teleportation Circle"
 date: 2026-08-20
-sources: [XPHB.332]
+sources: [Player's Handbook (2024) Page 332]
 tags: [bard, sorcerer, warlock, wizard, level5, long, conjuration]
 ---
 

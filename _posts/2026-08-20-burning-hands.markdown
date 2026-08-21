@@ -2,7 +2,7 @@
 layout: post
 title: "Burning Hands"
 date: 2026-08-20
-sources: [XPHB.248]
+sources: [Player's Handbook (2024) Page 248]
 tags: [sorcerer, wizard, level1, action, evocation]
 subtags:
   - cleric: light

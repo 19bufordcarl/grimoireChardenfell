@@ -2,7 +2,7 @@
 layout: post
 title: "Mage Armor"
 date: 2026-08-20
-sources: [XPHB.293]
+sources: [Player's Handbook (2024) Page 293]
 tags: [sorcerer, wizard, level1, action, abjuration]
 ---
 

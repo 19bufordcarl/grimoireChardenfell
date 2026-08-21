@@ -2,7 +2,7 @@
 layout: post
 title: "Poison Spray"
 date: 2026-08-20
-sources: [XPHB.306]
+sources: [Player's Handbook (2024) Page 306]
 tags: [druid, sorcerer, warlock, wizard, cantrip, action, necromancy]
 subtags:
   - damage: poison

@@ -2,7 +2,7 @@
 layout: post
 title: "Beast Sense"
 date: 2026-08-20
-sources: [XPHB.245]
+sources: [Player's Handbook (2024) Page 245]
 tags: [druid, ranger, level2, action, ritual, concentration, divination]
 ---
 

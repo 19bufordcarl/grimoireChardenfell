@@ -2,7 +2,7 @@
 layout: post
 title: "Hunter's Mark"
 date: 2026-08-20
-sources: [XPHB.287]
+sources: [Player's Handbook (2024) Page 287]
 tags: [ranger, level1, bonus, concentration, divination]
 subtags:
   - paladin: vengeance

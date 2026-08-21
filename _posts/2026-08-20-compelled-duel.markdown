@@ -2,7 +2,7 @@
 layout: post
 title: "Compelled Duel"
 date: 2026-08-20
-sources: [XPHB.252]
+sources: [Player's Handbook (2024) Page 252]
 tags: [paladin, level1, bonus, concentration, enchantment]
 ---
 

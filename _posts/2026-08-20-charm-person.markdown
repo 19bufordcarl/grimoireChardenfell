@@ -2,7 +2,7 @@
 layout: post
 title: "Charm Person"
 date: 2026-08-20
-sources: [XPHB.249]
+sources: [Player's Handbook (2024) Page 249]
 tags: [bard, druid, sorcerer, warlock, wizard, level1, action, enchantment]
 subtags:
   - bard: college-of-glamour

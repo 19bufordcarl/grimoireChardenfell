@@ -2,7 +2,7 @@
 layout: post
 title: "Wrathful Smite"
 date: 2026-08-20
-sources: [XPHB.343]
+sources: [Player's Handbook (2024) Page 343]
 tags: [paladin, level1, bonus, necromancy]
 subtags:
   - damage: necrotic

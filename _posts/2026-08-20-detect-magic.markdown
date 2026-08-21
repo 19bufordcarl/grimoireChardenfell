@@ -2,7 +2,7 @@
 layout: post
 title: "Detect Magic"
 date: 2026-08-20
-sources: [XPHB.262]
+sources: [Player's Handbook (2024) Page 262]
 tags: [bard, cleric, druid, paladin, ranger, sorcerer, warlock, wizard, level1, action, ritual, concentration, divination]
 ---
 

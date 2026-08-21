@@ -2,7 +2,7 @@
 layout: post
 title: "Major Image"
 date: 2026-08-20
-sources: [XPHB.295]
+sources: [Player's Handbook (2024) Page 295]
 tags: [bard, sorcerer, warlock, wizard, level3, action, concentration, illusion]
 ---
 

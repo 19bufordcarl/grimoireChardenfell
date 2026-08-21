@@ -2,7 +2,7 @@
 layout: post
 title: "Etherealness"
 date: 2026-08-20
-sources: [XPHB.269]
+sources: [Player's Handbook (2024) Page 269]
 tags: [bard, cleric, sorcerer, warlock, wizard, level7, action, conjuration]
 subtags:
   - damage: force

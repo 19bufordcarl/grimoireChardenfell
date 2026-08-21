@@ -2,7 +2,7 @@
 layout: post
 title: "Tasha's Hideous Laughter"
 date: 2026-08-20
-sources: [XPHB.331]
+sources: [Player's Handbook (2024) Page 331]
 tags: [bard, warlock, wizard, level1, action, concentration, enchantment]
 subtags:
   - warlock: great-old-one

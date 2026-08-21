@@ -2,7 +2,7 @@
 layout: post
 title: "Dispel Evil and Good"
 date: 2026-08-20
-sources: [XPHB.263]
+sources: [Player's Handbook (2024) Page 263]
 tags: [cleric, paladin, level5, action, concentration, abjuration]
 ---
 

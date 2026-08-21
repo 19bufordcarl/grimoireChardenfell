@@ -1,3 +1,5 @@
+let activeTags = [];
+
 function atomMatches(atom, tagArray) {
     let flip = false;
     while (atom.startsWith('!')){
@@ -5,17 +7,11 @@ function atomMatches(atom, tagArray) {
         flip = !flip;
     }
     
-    // NEW: Check if atom matches any tag, including partial matches after colons
     const value = atom === '' || atom === 'true' || atom !== 'false' && tagArray.some(tag => {
-        // Exact match
         if (tag === atom) return true;
-        
-        // Check if atom matches the part after a colon in a tag
-        // e.g., atom="fiend" matches tag="warlock:fiend"
         if (tag.includes(':') && tag.split(':').some(part => part === atom)) {
             return true;
         }
-        
         return false;
     });
     
@@ -41,15 +37,83 @@ function matchTagList(searchQuery, tagList){
     return matchTagList0(searchQuery.replaceAll(/\s+/g, ''), tagArray);
 }
 
-function runTagSearch(bar, dataEntry, classPrefix){
-    const searchQuery = document.getElementById(bar).value.toLowerCase();
+function addTag(tagValue, tagLabel) {
+    // Check if tag already exists
+    if (activeTags.some(t => t.value === tagValue)) {
+        return;
+    }
+    
+    activeTags.push({ value: tagValue, label: tagLabel });
+    updateActiveFilters();
+    applyFilters();
+}
+
+function removeTag(tagValue) {
+    activeTags = activeTags.filter(t => t.value !== tagValue);
+    updateActiveFilters();
+    applyFilters();
+}
+
+function clearAllTags() {
+    activeTags = [];
+    updateActiveFilters();
+    applyFilters();
+}
+
+function updateActiveFilters() {
+    const container = document.getElementById('activeFilters');
+    if (!container) return;
+    
+    if (activeTags.length === 0) {
+        container.innerHTML = '';
+        return;
+    }
+    
+    let html = '<span class="filter-label">Active filters:</span> ';
+    activeTags.forEach(tag => {
+        html += `<button class="filter-chip" data-tag="${tag.value}" title="Remove filter">
+            ${tag.label} ×
+        </button>`;
+    });
+    html += `<button class="filter-chip clear-all" title="Clear all filters">Clear all</button>`;
+    
+    container.innerHTML = html;
+    
+    container.querySelectorAll('.filter-chip[data-tag]').forEach(chip => {
+        chip.addEventListener('click', () => removeTag(chip.dataset.tag));
+    });
+    
+    container.querySelector('.clear-all').addEventListener('click', clearAllTags);
+}
+
+function applyFilters() {
+    const sourceSearchBar = document.getElementById('sourceSearchBar');
+    const sourceQuery = sourceSearchBar ? sourceSearchBar.value.toLowerCase() : '';
+    
     Array.from(document.querySelectorAll("li.post-link-container")).filter((elem) => {
-        return !!elem.dataset[dataEntry];
+        return !!elem.dataset['tags'];
     }).forEach((elem) => {
-        if (!searchQuery || matchTagList(searchQuery, elem.dataset[dataEntry])){
-            elem.classList.remove(classPrefix + "-hide");
+        let shouldShow = true;
+        
+        // Apply active tag filters with OR logic
+        // Show spell if it matches ANY of the active tags
+        if (activeTags.length > 0) {
+            shouldShow = activeTags.some(tag => {
+                return matchTagList(tag.value, elem.dataset['tags']);
+            });
+        }
+        
+        // Apply source filter (separate, still AND with tag filters)
+        if (shouldShow && sourceQuery) {
+            const sources = elem.dataset['sources'] || '';
+            shouldShow = sources.toLowerCase().includes(sourceQuery.toLowerCase());
+        }
+        
+        if (shouldShow) {
+            elem.classList.remove("tagsearch-hide");
+            elem.classList.remove("sourcesearch-hide");
         } else {
-            elem.classList.add(classPrefix + "-hide");
+            elem.classList.add("tagsearch-hide");
         }
     });
 }
@@ -59,23 +123,36 @@ async function ready() {
     if (!tagSearchBar) {
         return;
     }
+    
     const sourceSearchBar = document.getElementById("sourceSearchBar");
+    
+    // Parse URL params for initial tags
     const params = new URLSearchParams(window.location.search);
-    if (params.get("tagSearch")){
-        tagSearchBar.value = params.get("tagSearch");
+    if (params.get("tags")){
+        const tags = params.get("tags").split(',');
+        tags.forEach(tag => {
+            const option = tagSearchBar.querySelector(`option[value="${tag}"]`);
+            if (option) {
+                addTag(tag, option.textContent.trim());
+            }
+        });
     }
-    if (params.get("sourceSearch")){
-        sourceSearchBar.value = params.get("sourceSearch");
+    
+    // Tag dropdown handler
+    tagSearchBar.addEventListener('change', (e) => {
+        const selectedOption = tagSearchBar.options[tagSearchBar.selectedIndex];
+        if (selectedOption.value) {
+            addTag(selectedOption.value, selectedOption.textContent.trim());
+            tagSearchBar.value = ''; // Reset dropdown
+        }
+    });
+    
+    // Source dropdown handler
+    if (sourceSearchBar) {
+        sourceSearchBar.addEventListener('change', applyFilters);
     }
-    const tagSearch = async (event) => runTagSearch("tagSearchBar", "tags", "tagsearch");
-    tagSearchBar.addEventListener("change", tagSearch);
-    tagSearchBar.addEventListener("keydown", tagSearch);
-    tagSearchBar.addEventListener("input", tagSearch);
-    const sourceSearch = async (event) => runTagSearch("sourceSearchBar", "sources", "sourcesearch");
-    sourceSearchBar.addEventListener("change", sourceSearch);
-    sourceSearchBar.addEventListener("keydown", sourceSearch);
-    sourceSearchBar.addEventListener("input", sourceSearch);
-    return Promise.all([tagSearch(), sourceSearch()]);
+    
+    return Promise.all([applyFilters()]);
 }
 
 document.addEventListener("DOMContentLoaded", ready);

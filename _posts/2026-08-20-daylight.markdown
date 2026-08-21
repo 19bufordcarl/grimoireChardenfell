@@ -2,7 +2,7 @@
 layout: post
 title: "Daylight"
 date: 2026-08-20
-sources: [XPHB.260]
+sources: [Player's Handbook (2024) Page 260]
 tags: [cleric, druid, paladin, ranger, sorcerer, level3, action, evocation]
 subtags:
   - cleric: light

@@ -2,7 +2,7 @@
 layout: post
 title: "Chill Touch"
 date: 2026-08-20
-sources: [XPHB.249]
+sources: [Player's Handbook (2024) Page 249]
 tags: [sorcerer, warlock, wizard, cantrip, action, necromancy]
 subtags:
   - damage: necrotic

@@ -2,7 +2,7 @@
 layout: post
 title: "Mind Sliver"
 date: 2026-08-20
-sources: [XPHB.298]
+sources: [Player's Handbook (2024) Page 298]
 tags: [sorcerer, warlock, wizard, cantrip, action, enchantment]
 subtags:
   - sorcerer: aberrant-sorcery

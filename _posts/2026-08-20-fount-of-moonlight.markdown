@@ -2,7 +2,7 @@
 layout: post
 title: "Fount of Moonlight"
 date: 2026-08-20
-sources: [XPHB.277]
+sources: [Player's Handbook (2024) Page 277]
 tags: [bard, druid, level4, action, concentration, evocation]
 subtags:
   - druid: moon

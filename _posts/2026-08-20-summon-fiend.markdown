@@ -2,7 +2,7 @@
 layout: post
 title: "Summon Fiend"
 date: 2026-08-20
-sources: [XPHB.326]
+sources: [Player's Handbook (2024) Page 326]
 tags: [warlock, wizard, level6, action, concentration, conjuration]
 ---
 

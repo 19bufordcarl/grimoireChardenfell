@@ -2,7 +2,7 @@
 layout: post
 title: "Spare the Dying"
 date: 2026-08-20
-sources: [XPHB.318]
+sources: [Player's Handbook (2024) Page 318]
 tags: [cleric, druid, cantrip, action, necromancy]
 ---
 

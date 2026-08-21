@@ -2,7 +2,7 @@
 layout: post
 title: "Flame Strike"
 date: 2026-08-20
-sources: [XPHB.275]
+sources: [Player's Handbook (2024) Page 275]
 tags: [cleric, level5, action, evocation]
 subtags:
   - cleric: light

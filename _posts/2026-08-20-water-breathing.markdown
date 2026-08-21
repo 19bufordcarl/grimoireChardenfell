@@ -2,7 +2,7 @@
 layout: post
 title: "Water Breathing"
 date: 2026-08-20
-sources: [XPHB.340]
+sources: [Player's Handbook (2024) Page 340]
 tags: [druid, ranger, sorcerer, wizard, level3, action, ritual, transmutation]
 subtags:
   - druid: sea

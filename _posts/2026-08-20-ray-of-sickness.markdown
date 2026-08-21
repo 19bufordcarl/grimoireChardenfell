@@ -2,7 +2,7 @@
 layout: post
 title: "Ray of Sickness"
 date: 2026-08-20
-sources: [XPHB.311]
+sources: [Player's Handbook (2024) Page 311]
 tags: [sorcerer, wizard, level1, action, necromancy]
 subtags:
   - druid: land

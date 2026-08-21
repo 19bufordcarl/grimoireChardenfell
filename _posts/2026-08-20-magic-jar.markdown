@@ -2,7 +2,7 @@
 layout: post
 title: "Magic Jar"
 date: 2026-08-20
-sources: [XPHB.294]
+sources: [Player's Handbook (2024) Page 294]
 tags: [wizard, level6, long, necromancy]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "True Polymorph"
 date: 2026-08-20
-sources: [XPHB.335]
+sources: [Player's Handbook (2024) Page 335]
 tags: [bard, warlock, wizard, level9, action, concentration, transmutation]
 ---
 

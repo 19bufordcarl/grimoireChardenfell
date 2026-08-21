@@ -2,7 +2,7 @@
 layout: post
 title: "Legend Lore"
 date: 2026-08-20
-sources: [XPHB.290]
+sources: [Player's Handbook (2024) Page 290]
 tags: [bard, cleric, wizard, level5, long, divination]
 subtags:
   - paladin: glory

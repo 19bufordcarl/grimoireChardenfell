@@ -2,7 +2,7 @@
 layout: post
 title: "Summon Construct"
 date: 2026-08-20
-sources: [XPHB.324]
+sources: [Player's Handbook (2024) Page 324]
 tags: [wizard, level4, action, concentration, conjuration]
 subtags:
   - sorcerer: clockwork-sorcery

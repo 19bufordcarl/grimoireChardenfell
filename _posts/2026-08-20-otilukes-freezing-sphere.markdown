@@ -2,7 +2,7 @@
 layout: post
 title: "Otiluke's Freezing Sphere"
 date: 2026-08-20
-sources: [XPHB.302]
+sources: [Player's Handbook (2024) Page 302]
 tags: [sorcerer, wizard, level6, action, evocation]
 subtags:
   - damage: cold

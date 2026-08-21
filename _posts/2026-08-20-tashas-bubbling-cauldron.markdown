@@ -2,7 +2,7 @@
 layout: post
 title: "Tasha's Bubbling Cauldron"
 date: 2026-08-20
-sources: [XPHB.330]
+sources: [Player's Handbook (2024) Page 330]
 tags: [warlock, wizard, level6, action, conjuration]
 ---
 

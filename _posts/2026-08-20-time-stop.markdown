@@ -2,7 +2,7 @@
 layout: post
 title: "Time Stop"
 date: 2026-08-20
-sources: [XPHB.334]
+sources: [Player's Handbook (2024) Page 334]
 tags: [sorcerer, wizard, level9, action, transmutation]
 ---
 

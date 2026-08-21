@@ -2,7 +2,7 @@
 layout: post
 title: "Warding Bond"
 date: 2026-08-20
-sources: [XPHB.340]
+sources: [Player's Handbook (2024) Page 340]
 tags: [cleric, paladin, level2, action, abjuration]
 ---
 

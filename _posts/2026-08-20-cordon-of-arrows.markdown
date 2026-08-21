@@ -2,7 +2,7 @@
 layout: post
 title: "Cordon of Arrows"
 date: 2026-08-20
-sources: [XPHB.258]
+sources: [Player's Handbook (2024) Page 258]
 tags: [ranger, level2, action, transmutation]
 subtags:
   - damage: piercing

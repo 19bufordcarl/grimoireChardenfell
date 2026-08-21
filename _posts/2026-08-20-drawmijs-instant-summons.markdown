@@ -2,7 +2,7 @@
 layout: post
 title: "Drawmij's Instant Summons"
 date: 2026-08-20
-sources: [XPHB.266]
+sources: [Player's Handbook (2024) Page 266]
 tags: [wizard, level6, long, ritual, conjuration]
 ---
 

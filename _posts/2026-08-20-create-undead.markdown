@@ -2,7 +2,7 @@
 layout: post
 title: "Create Undead"
 date: 2026-08-20
-sources: [XPHB.258]
+sources: [Player's Handbook (2024) Page 258]
 tags: [cleric, warlock, wizard, level6, long, necromancy]
 ---
 

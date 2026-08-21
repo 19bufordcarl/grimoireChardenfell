@@ -2,7 +2,7 @@
 layout: post
 title: "Find Familiar"
 date: 2026-08-20
-sources: [XPHB.272]
+sources: [Player's Handbook (2024) Page 272]
 tags: [wizard, level1, long, ritual, conjuration]
 ---
 

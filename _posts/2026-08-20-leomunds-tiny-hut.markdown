@@ -2,7 +2,7 @@
 layout: post
 title: "Leomund's Tiny Hut"
 date: 2026-08-20
-sources: [XPHB.291]
+sources: [Player's Handbook (2024) Page 291]
 tags: [bard, wizard, level3, long, ritual, evocation]
 ---
 

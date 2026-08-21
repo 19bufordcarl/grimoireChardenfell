@@ -2,7 +2,7 @@
 layout: post
 title: "Hellish Rebuke"
 date: 2026-08-20
-sources: [XPHB.284]
+sources: [Player's Handbook (2024) Page 284]
 tags: [warlock, level1, reaction, evocation]
 subtags:
   - damage: fire

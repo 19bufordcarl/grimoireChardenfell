@@ -2,7 +2,7 @@
 layout: post
 title: "Clairvoyance"
 date: 2026-08-20
-sources: [XPHB.250]
+sources: [Player's Handbook (2024) Page 250]
 tags: [bard, cleric, sorcerer, wizard, level3, long, concentration, divination]
 subtags:
   - warlock: great-old-one

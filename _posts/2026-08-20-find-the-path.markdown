@@ -2,7 +2,7 @@
 layout: post
 title: "Find the Path"
 date: 2026-08-20
-sources: [XPHB.273]
+sources: [Player's Handbook (2024) Page 273]
 tags: [bard, cleric, druid, level6, long, concentration, divination]
 ---
 

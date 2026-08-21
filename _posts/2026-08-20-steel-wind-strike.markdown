@@ -2,7 +2,7 @@
 layout: post
 title: "Steel Wind Strike"
 date: 2026-08-20
-sources: [XPHB.320]
+sources: [Player's Handbook (2024) Page 320]
 tags: [ranger, wizard, level5, action, conjuration]
 subtags:
   - cleric: war

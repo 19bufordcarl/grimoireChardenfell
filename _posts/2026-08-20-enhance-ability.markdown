@@ -2,7 +2,7 @@
 layout: post
 title: "Enhance Ability"
 date: 2026-08-20
-sources: [XPHB.268]
+sources: [Player's Handbook (2024) Page 268]
 tags: [bard, cleric, druid, ranger, sorcerer, wizard, level2, action, concentration, transmutation]
 subtags:
   - paladin: glory

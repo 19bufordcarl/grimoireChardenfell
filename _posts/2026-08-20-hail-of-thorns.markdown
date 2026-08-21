@@ -2,7 +2,7 @@
 layout: post
 title: "Hail of Thorns"
 date: 2026-08-20
-sources: [XPHB.283]
+sources: [Player's Handbook (2024) Page 283]
 tags: [ranger, level1, bonus, conjuration]
 subtags:
   - damage: piercing

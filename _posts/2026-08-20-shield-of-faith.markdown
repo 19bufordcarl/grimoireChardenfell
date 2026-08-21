@@ -2,7 +2,7 @@
 layout: post
 title: "Shield of Faith"
 date: 2026-08-20
-sources: [XPHB.316]
+sources: [Player's Handbook (2024) Page 316]
 tags: [cleric, paladin, level1, bonus, concentration, abjuration]
 subtags:
   - cleric: war

@@ -2,7 +2,7 @@
 layout: post
 title: "Faerie Fire"
 date: 2026-08-20
-sources: [XPHB.271]
+sources: [Player's Handbook (2024) Page 271]
 tags: [bard, druid, level1, action, concentration, evocation]
 subtags:
   - cleric: light

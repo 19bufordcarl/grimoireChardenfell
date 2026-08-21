@@ -2,7 +2,7 @@
 layout: post
 title: "Dominate Person"
 date: 2026-08-20
-sources: [XPHB.266]
+sources: [Player's Handbook (2024) Page 266]
 tags: [bard, sorcerer, wizard, level5, action, concentration, enchantment]
 subtags:
   - cleric: trickery

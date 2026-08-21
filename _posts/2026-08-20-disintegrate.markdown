@@ -2,7 +2,7 @@
 layout: post
 title: "Disintegrate"
 date: 2026-08-20
-sources: [XPHB.263]
+sources: [Player's Handbook (2024) Page 263]
 tags: [sorcerer, wizard, level6, action, transmutation]
 subtags:
   - damage: force

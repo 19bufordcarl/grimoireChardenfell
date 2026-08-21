@@ -2,7 +2,7 @@
 layout: post
 title: "Animate Dead"
 date: 2026-08-20
-sources: [XPHB.240]
+sources: [Player's Handbook (2024) Page 240]
 tags: [cleric, wizard, level3, long, necromancy]
 ---
 

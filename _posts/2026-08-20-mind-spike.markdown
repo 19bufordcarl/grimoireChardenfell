@@ -2,7 +2,7 @@
 layout: post
 title: "Mind Spike"
 date: 2026-08-20
-sources: [XPHB.298]
+sources: [Player's Handbook (2024) Page 298]
 tags: [sorcerer, warlock, wizard, level2, action, concentration, divination]
 subtags:
   - damage: psychic

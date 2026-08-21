@@ -2,7 +2,7 @@
 layout: post
 title: "Acid Splash"
 date: 2026-08-20
-sources: [XPHB.239]
+sources: [Player's Handbook (2024) Page 239]
 tags: [sorcerer, wizard, cantrip, action, evocation]
 subtags:
   - druid: land

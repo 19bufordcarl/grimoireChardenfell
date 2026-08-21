@@ -2,7 +2,7 @@
 layout: post
 title: "Otiluke's Resilient Sphere"
 date: 2026-08-20
-sources: [XPHB.303]
+sources: [Player's Handbook (2024) Page 303]
 tags: [wizard, level4, action, concentration, abjuration]
 ---
 

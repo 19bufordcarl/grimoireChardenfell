@@ -2,7 +2,7 @@
 layout: post
 title: "Banishing Smite"
 date: 2026-08-20
-sources: [XPHB.245]
+sources: [Player's Handbook (2024) Page 245]
 tags: [paladin, level5, bonus, concentration, conjuration]
 subtags:
   - damage: force

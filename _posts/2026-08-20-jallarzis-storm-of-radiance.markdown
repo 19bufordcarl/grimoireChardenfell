@@ -2,7 +2,7 @@
 layout: post
 title: "Jallarzi's Storm of Radiance"
 date: 2026-08-20
-sources: [XPHB.289]
+sources: [Player's Handbook (2024) Page 289]
 tags: [warlock, wizard, level5, action, concentration, evocation]
 subtags:
   - damage: radiant

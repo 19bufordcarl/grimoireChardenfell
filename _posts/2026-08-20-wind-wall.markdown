@@ -2,7 +2,7 @@
 layout: post
 title: "Wind Wall"
 date: 2026-08-20
-sources: [XPHB.341]
+sources: [Player's Handbook (2024) Page 341]
 tags: [druid, ranger, level3, action, concentration, evocation]
 subtags:
   - damage: bludgeoning

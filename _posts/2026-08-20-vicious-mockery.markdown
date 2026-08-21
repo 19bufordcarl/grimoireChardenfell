@@ -2,7 +2,7 @@
 layout: post
 title: "Vicious Mockery"
 date: 2026-08-20
-sources: [XPHB.337]
+sources: [Player's Handbook (2024) Page 337]
 tags: [bard, cantrip, action, enchantment]
 subtags:
   - damage: psychic

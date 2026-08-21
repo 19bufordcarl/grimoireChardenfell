@@ -2,7 +2,7 @@
 layout: post
 title: "Telekinesis"
 date: 2026-08-20
-sources: [XPHB.331]
+sources: [Player's Handbook (2024) Page 331]
 tags: [sorcerer, wizard, level5, action, concentration, transmutation]
 subtags:
   - sorcerer: aberrant-sorcery

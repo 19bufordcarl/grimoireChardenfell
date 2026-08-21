@@ -2,7 +2,7 @@
 layout: post
 title: "Melf's Acid Arrow"
 date: 2026-08-20
-sources: [XPHB.297]
+sources: [Player's Handbook (2024) Page 297]
 tags: [wizard, level2, action, evocation]
 subtags:
   - damage: acid

@@ -2,7 +2,7 @@
 layout: post
 title: "Greater Invisibility"
 date: 2026-08-20
-sources: [XPHB.281]
+sources: [Player's Handbook (2024) Page 281]
 tags: [bard, sorcerer, wizard, level4, action, concentration, illusion]
 subtags:
   - ranger: gloom-stalker

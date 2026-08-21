@@ -2,7 +2,7 @@
 layout: post
 title: "True Strike"
 date: 2026-08-20
-sources: [XPHB.336]
+sources: [Player's Handbook (2024) Page 336]
 tags: [bard, sorcerer, warlock, wizard, cantrip, action, divination]
 subtags:
   - damage: radiant

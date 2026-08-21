@@ -2,7 +2,7 @@
 layout: post
 title: "Nondetection"
 date: 2026-08-20
-sources: [XPHB.302]
+sources: [Player's Handbook (2024) Page 302]
 tags: [bard, ranger, wizard, level3, action, abjuration]
 subtags:
   - cleric: trickery

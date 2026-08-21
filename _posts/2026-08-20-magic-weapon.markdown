@@ -2,7 +2,7 @@
 layout: post
 title: "Magic Weapon"
 date: 2026-08-20
-sources: [XPHB.295]
+sources: [Player's Handbook (2024) Page 295]
 tags: [paladin, ranger, sorcerer, wizard, level2, bonus, transmutation]
 subtags:
   - cleric: war

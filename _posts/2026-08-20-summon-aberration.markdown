@@ -2,7 +2,7 @@
 layout: post
 title: "Summon Aberration"
 date: 2026-08-20
-sources: [XPHB.322]
+sources: [Player's Handbook (2024) Page 322]
 tags: [warlock, wizard, level4, action, concentration, conjuration]
 subtags:
   - sorcerer: aberrant-sorcery

@@ -2,7 +2,7 @@
 layout: post
 title: "Crown of Madness"
 date: 2026-08-20
-sources: [XPHB.259]
+sources: [Player's Handbook (2024) Page 259]
 tags: [bard, sorcerer, warlock, wizard, level2, action, concentration, enchantment]
 ---
 

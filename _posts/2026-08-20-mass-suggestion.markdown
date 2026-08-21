@@ -2,7 +2,7 @@
 layout: post
 title: "Mass Suggestion"
 date: 2026-08-20
-sources: [XPHB.296]
+sources: [Player's Handbook (2024) Page 296]
 tags: [bard, sorcerer, wizard, level6, action, enchantment]
 ---
 

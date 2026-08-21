@@ -2,7 +2,7 @@
 layout: post
 title: "Word of Recall"
 date: 2026-08-20
-sources: [XPHB.343]
+sources: [Player's Handbook (2024) Page 343]
 tags: [cleric, level6, action, conjuration]
 ---
 

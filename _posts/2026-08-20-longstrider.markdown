@@ -2,7 +2,7 @@
 layout: post
 title: "Longstrider"
 date: 2026-08-20
-sources: [XPHB.293]
+sources: [Player's Handbook (2024) Page 293]
 tags: [bard, druid, ranger, wizard, level1, action, transmutation]
 ---
 

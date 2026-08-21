@@ -2,7 +2,7 @@
 layout: post
 title: "Programmed Illusion"
 date: 2026-08-20
-sources: [XPHB.309]
+sources: [Player's Handbook (2024) Page 309]
 tags: [bard, wizard, level6, action, illusion]
 ---
 

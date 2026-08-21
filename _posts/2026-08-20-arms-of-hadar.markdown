@@ -2,7 +2,7 @@
 layout: post
 title: "Arms of Hadar"
 date: 2026-08-20
-sources: [XPHB.243]
+sources: [Player's Handbook (2024) Page 243]
 tags: [warlock, level1, action, conjuration]
 subtags:
   - sorcerer: aberrant-sorcery

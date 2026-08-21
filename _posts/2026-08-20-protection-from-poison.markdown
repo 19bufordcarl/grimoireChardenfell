@@ -2,7 +2,7 @@
 layout: post
 title: "Protection from Poison"
 date: 2026-08-20
-sources: [XPHB.310]
+sources: [Player's Handbook (2024) Page 310]
 tags: [cleric, druid, paladin, ranger, level2, action, abjuration]
 ---
 

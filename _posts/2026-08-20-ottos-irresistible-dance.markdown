@@ -2,7 +2,7 @@
 layout: post
 title: "Otto's Irresistible Dance"
 date: 2026-08-20
-sources: [XPHB.303]
+sources: [Player's Handbook (2024) Page 303]
 tags: [bard, wizard, level6, action, concentration, enchantment]
 ---
 

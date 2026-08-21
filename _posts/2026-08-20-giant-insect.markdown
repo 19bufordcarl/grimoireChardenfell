@@ -2,7 +2,7 @@
 layout: post
 title: "Giant Insect"
 date: 2026-08-20
-sources: [XPHB.279]
+sources: [Player's Handbook (2024) Page 279]
 tags: [druid, level4, action, concentration, conjuration]
 ---
 

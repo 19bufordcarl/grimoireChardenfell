@@ -2,7 +2,7 @@
 layout: post
 title: "Planar Binding"
 date: 2026-08-20
-sources: [XPHB.305]
+sources: [Player's Handbook (2024) Page 305]
 tags: [bard, cleric, druid, warlock, wizard, level5, long, abjuration]
 ---
 

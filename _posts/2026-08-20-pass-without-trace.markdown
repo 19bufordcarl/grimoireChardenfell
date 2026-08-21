@@ -2,7 +2,7 @@
 layout: post
 title: "Pass without Trace"
 date: 2026-08-20
-sources: [XPHB.303]
+sources: [Player's Handbook (2024) Page 303]
 tags: [druid, ranger, level2, action, concentration, abjuration]
 subtags:
   - cleric: trickery

@@ -2,7 +2,7 @@
 layout: post
 title: "Illusory Script"
 date: 2026-08-20
-sources: [XPHB.288]
+sources: [Player's Handbook (2024) Page 288]
 tags: [bard, warlock, wizard, level1, long, ritual, illusion]
 ---
 

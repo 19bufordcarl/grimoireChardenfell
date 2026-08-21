@@ -2,7 +2,7 @@
 layout: post
 title: "Arcane Vigor"
 date: 2026-08-20
-sources: [XPHB.242]
+sources: [Player's Handbook (2024) Page 242]
 tags: [sorcerer, wizard, level2, bonus, abjuration]
 ---
 

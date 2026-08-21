@@ -2,7 +2,7 @@
 layout: post
 title: "Cure Wounds"
 date: 2026-08-20
-sources: [XPHB.259]
+sources: [Player's Handbook (2024) Page 259]
 tags: [bard, cleric, druid, paladin, ranger, level1, action, abjuration]
 subtags:
   - cleric: life

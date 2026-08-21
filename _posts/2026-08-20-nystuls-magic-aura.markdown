@@ -2,7 +2,7 @@
 layout: post
 title: "Nystul's Magic Aura"
 date: 2026-08-20
-sources: [XPHB.302]
+sources: [Player's Handbook (2024) Page 302]
 tags: [wizard, level2, action, illusion]
 ---
 

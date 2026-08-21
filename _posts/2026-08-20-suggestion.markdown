@@ -2,7 +2,7 @@
 layout: post
 title: "Suggestion"
 date: 2026-08-20
-sources: [XPHB.321]
+sources: [Player's Handbook (2024) Page 321]
 tags: [bard, sorcerer, warlock, wizard, level2, action, concentration, enchantment]
 subtags:
   - warlock: fiend

@@ -2,7 +2,7 @@
 layout: post
 title: "Charm Monster"
 date: 2026-08-20
-sources: [XPHB.249]
+sources: [Player's Handbook (2024) Page 249]
 tags: [bard, druid, sorcerer, warlock, wizard, level4, action, enchantment]
 subtags:
   - sorcerer: draconic-sorcery

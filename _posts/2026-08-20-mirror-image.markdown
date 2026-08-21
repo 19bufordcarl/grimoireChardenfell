@@ -2,7 +2,7 @@
 layout: post
 title: "Mirror Image"
 date: 2026-08-20
-sources: [XPHB.299]
+sources: [Player's Handbook (2024) Page 299]
 tags: [bard, sorcerer, warlock, wizard, level2, action, illusion]
 subtags:
   - bard: college-of-glamour

@@ -2,7 +2,7 @@
 layout: post
 title: "Phantasmal Killer"
 date: 2026-08-20
-sources: [XPHB.304]
+sources: [Player's Handbook (2024) Page 304]
 tags: [bard, wizard, level4, action, concentration, illusion]
 subtags:
   - damage: psychic

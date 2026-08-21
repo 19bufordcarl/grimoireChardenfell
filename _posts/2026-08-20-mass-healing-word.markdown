@@ -2,7 +2,7 @@
 layout: post
 title: "Mass Healing Word"
 date: 2026-08-20
-sources: [XPHB.296]
+sources: [Player's Handbook (2024) Page 296]
 tags: [bard, cleric, level3, bonus, abjuration]
 subtags:
   - cleric: life

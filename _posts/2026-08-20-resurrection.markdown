@@ -2,7 +2,7 @@
 layout: post
 title: "Resurrection"
 date: 2026-08-20
-sources: [XPHB.312]
+sources: [Player's Handbook (2024) Page 312]
 tags: [bard, cleric, level7, long, necromancy]
 ---
 

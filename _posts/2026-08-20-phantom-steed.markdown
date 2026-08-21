@@ -2,7 +2,7 @@
 layout: post
 title: "Phantom Steed"
 date: 2026-08-20
-sources: [XPHB.304]
+sources: [Player's Handbook (2024) Page 304]
 tags: [wizard, level3, long, ritual, illusion]
 ---
 

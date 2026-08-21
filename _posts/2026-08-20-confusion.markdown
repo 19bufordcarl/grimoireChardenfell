@@ -2,7 +2,7 @@
 layout: post
 title: "Confusion"
 date: 2026-08-20
-sources: [XPHB.253]
+sources: [Player's Handbook (2024) Page 253]
 tags: [bard, druid, sorcerer, wizard, level4, action, concentration, enchantment]
 subtags:
   - cleric: trickery

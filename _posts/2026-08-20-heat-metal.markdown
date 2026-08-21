@@ -2,7 +2,7 @@
 layout: post
 title: "Heat Metal"
 date: 2026-08-20
-sources: [XPHB.284]
+sources: [Player's Handbook (2024) Page 284]
 tags: [bard, druid, level2, action, concentration, transmutation]
 subtags:
   - damage: fire

@@ -2,7 +2,7 @@
 layout: post
 title: "Cone of Cold"
 date: 2026-08-20
-sources: [XPHB.253]
+sources: [Player's Handbook (2024) Page 253]
 tags: [druid, sorcerer, wizard, level5, action, evocation]
 subtags:
   - druid: land

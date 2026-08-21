@@ -2,7 +2,7 @@
 layout: post
 title: "Goodberry"
 date: 2026-08-20
-sources: [XPHB.280]
+sources: [Player's Handbook (2024) Page 280]
 tags: [druid, ranger, level1, action, conjuration]
 ---
 

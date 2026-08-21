@@ -2,7 +2,7 @@
 layout: post
 title: "Conjure Animals"
 date: 2026-08-20
-sources: [XPHB.254]
+sources: [Player's Handbook (2024) Page 254]
 tags: [druid, ranger, level3, action, concentration, conjuration]
 subtags:
   - druid: moon

@@ -2,7 +2,7 @@
 layout: post
 title: "Astral Projection"
 date: 2026-08-20
-sources: [XPHB.243]
+sources: [Player's Handbook (2024) Page 243]
 tags: [cleric, warlock, wizard, level9, long, necromancy]
 ---
 

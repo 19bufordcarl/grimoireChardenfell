@@ -2,7 +2,7 @@
 layout: post
 title: "Conjure Barrage"
 date: 2026-08-20
-sources: [XPHB.254]
+sources: [Player's Handbook (2024) Page 254]
 tags: [ranger, level3, action, conjuration]
 subtags:
   - damage: force

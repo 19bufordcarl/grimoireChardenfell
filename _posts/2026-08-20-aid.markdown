@@ -2,7 +2,7 @@
 layout: post
 title: "Aid"
 date: 2026-08-20
-sources: [XPHB.239]
+sources: [Player's Handbook (2024) Page 239]
 tags: [bard, cleric, druid, paladin, ranger, level2, action, abjuration]
 subtags:
   - cleric: life

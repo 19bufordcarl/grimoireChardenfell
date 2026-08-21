@@ -2,7 +2,7 @@
 layout: post
 title: "Fire Bolt"
 date: 2026-08-20
-sources: [XPHB.274]
+sources: [Player's Handbook (2024) Page 274]
 tags: [sorcerer, wizard, cantrip, action, evocation]
 subtags:
   - druid: land

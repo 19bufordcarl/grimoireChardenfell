@@ -2,7 +2,7 @@
 layout: post
 title: "Imprisonment"
 date: 2026-08-20
-sources: [XPHB.288]
+sources: [Player's Handbook (2024) Page 288]
 tags: [warlock, wizard, level9, long, abjuration]
 ---
 

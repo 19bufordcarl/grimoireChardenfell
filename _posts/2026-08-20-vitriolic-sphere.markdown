@@ -2,7 +2,7 @@
 layout: post
 title: "Vitriolic Sphere"
 date: 2026-08-20
-sources: [XPHB.337]
+sources: [Player's Handbook (2024) Page 337]
 tags: [sorcerer, wizard, level4, action, evocation]
 subtags:
   - damage: acid

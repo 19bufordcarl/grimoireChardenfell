@@ -2,7 +2,7 @@
 layout: post
 title: "Eldritch Blast"
 date: 2026-08-20
-sources: [XPHB.267]
+sources: [Player's Handbook (2024) Page 267]
 tags: [warlock, cantrip, action, evocation]
 subtags:
   - damage: force

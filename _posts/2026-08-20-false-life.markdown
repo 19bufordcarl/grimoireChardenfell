@@ -2,7 +2,7 @@
 layout: post
 title: "False Life"
 date: 2026-08-20
-sources: [XPHB.271]
+sources: [Player's Handbook (2024) Page 271]
 tags: [sorcerer, wizard, level1, action, necromancy]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Dominate Monster"
 date: 2026-08-20
-sources: [XPHB.265]
+sources: [Player's Handbook (2024) Page 265]
 tags: [bard, sorcerer, warlock, wizard, level8, action, concentration, enchantment]
 ---
 

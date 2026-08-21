@@ -2,7 +2,7 @@
 layout: post
 title: "True Resurrection"
 date: 2026-08-20
-sources: [XPHB.336]
+sources: [Player's Handbook (2024) Page 336]
 tags: [cleric, druid, level9, long, necromancy]
 ---
 

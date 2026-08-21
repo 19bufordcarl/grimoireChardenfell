@@ -2,7 +2,7 @@
 layout: post
 title: "Ray of Enfeeblement"
 date: 2026-08-20
-sources: [XPHB.311]
+sources: [Player's Handbook (2024) Page 311]
 tags: [warlock, wizard, level2, action, concentration, necromancy]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Wall of Fire"
 date: 2026-08-20
-sources: [XPHB.338]
+sources: [Player's Handbook (2024) Page 338]
 tags: [druid, sorcerer, wizard, level4, action, concentration, evocation]
 subtags:
   - cleric: light

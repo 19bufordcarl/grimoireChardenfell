@@ -2,7 +2,7 @@
 layout: post
 title: "Dispel Magic"
 date: 2026-08-20
-sources: [XPHB.264]
+sources: [Player's Handbook (2024) Page 264]
 tags: [bard, cleric, druid, paladin, ranger, sorcerer, warlock, wizard, level3, action, abjuration]
 subtags:
   - paladin: devotion

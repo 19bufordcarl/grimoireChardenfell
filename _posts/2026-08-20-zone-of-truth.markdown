@@ -2,7 +2,7 @@
 layout: post
 title: "Zone of Truth"
 date: 2026-08-20
-sources: [XPHB.343]
+sources: [Player's Handbook (2024) Page 343]
 tags: [bard, cleric, paladin, level2, action, enchantment]
 subtags:
   - paladin: devotion

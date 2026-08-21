@@ -2,7 +2,7 @@
 layout: post
 title: "Blade Barrier"
 date: 2026-08-20
-sources: [XPHB.247]
+sources: [Player's Handbook (2024) Page 247]
 tags: [cleric, level6, action, concentration, evocation]
 subtags:
   - damage: force

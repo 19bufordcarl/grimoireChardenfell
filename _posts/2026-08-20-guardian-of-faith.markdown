@@ -2,7 +2,7 @@
 layout: post
 title: "Guardian of Faith"
 date: 2026-08-20
-sources: [XPHB.281]
+sources: [Player's Handbook (2024) Page 281]
 tags: [cleric, level4, action, conjuration]
 subtags:
   - paladin: devotion

@@ -2,7 +2,7 @@
 layout: post
 title: "Searing Smite"
 date: 2026-08-20
-sources: [XPHB.314]
+sources: [Player's Handbook (2024) Page 314]
 tags: [paladin, level1, bonus, evocation]
 subtags:
   - damage: fire

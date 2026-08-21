@@ -2,7 +2,7 @@
 layout: post
 title: "Cloud of Daggers"
 date: 2026-08-20
-sources: [XPHB.251]
+sources: [Player's Handbook (2024) Page 251]
 tags: [bard, sorcerer, warlock, wizard, level2, action, concentration, conjuration]
 subtags:
   - damage: slashing

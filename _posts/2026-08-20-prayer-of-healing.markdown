@@ -2,7 +2,7 @@
 layout: post
 title: "Prayer of Healing"
 date: 2026-08-20
-sources: [XPHB.307]
+sources: [Player's Handbook (2024) Page 307]
 tags: [cleric, paladin, level2, long, abjuration]
 ---
 

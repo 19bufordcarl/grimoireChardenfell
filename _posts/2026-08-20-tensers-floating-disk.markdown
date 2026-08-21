@@ -2,7 +2,7 @@
 layout: post
 title: "Tenser's Floating Disk"
 date: 2026-08-20
-sources: [XPHB.332]
+sources: [Player's Handbook (2024) Page 332]
 tags: [wizard, level1, action, ritual, conjuration]
 ---
 

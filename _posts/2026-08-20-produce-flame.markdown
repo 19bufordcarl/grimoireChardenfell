@@ -2,7 +2,7 @@
 layout: post
 title: "Produce Flame"
 date: 2026-08-20
-sources: [XPHB.308]
+sources: [Player's Handbook (2024) Page 308]
 tags: [druid, cantrip, bonus, conjuration]
 subtags:
   - damage: fire

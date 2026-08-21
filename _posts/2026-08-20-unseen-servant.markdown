@@ -2,7 +2,7 @@
 layout: post
 title: "Unseen Servant"
 date: 2026-08-20
-sources: [XPHB.336]
+sources: [Player's Handbook (2024) Page 336]
 tags: [bard, warlock, wizard, level1, action, ritual, conjuration]
 ---
 

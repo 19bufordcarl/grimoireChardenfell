@@ -2,7 +2,7 @@
 layout: post
 title: "Protection from Energy"
 date: 2026-08-20
-sources: [XPHB.309]
+sources: [Player's Handbook (2024) Page 309]
 tags: [cleric, druid, ranger, sorcerer, wizard, level3, action, concentration, abjuration]
 subtags:
   - paladin: ancients

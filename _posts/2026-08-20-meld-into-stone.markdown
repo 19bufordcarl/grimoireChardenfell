@@ -2,7 +2,7 @@
 layout: post
 title: "Meld into Stone"
 date: 2026-08-20
-sources: [XPHB.296]
+sources: [Player's Handbook (2024) Page 296]
 tags: [cleric, druid, ranger, level3, action, ritual, transmutation]
 subtags:
   - damage: force
