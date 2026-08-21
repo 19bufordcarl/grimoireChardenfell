@@ -1,4 +1,5 @@
 let activeTags = [];
+let allTagOptions = [];
 
 function atomMatches(atom, tagArray) {
     let flip = false;
@@ -38,7 +39,6 @@ function matchTagList(searchQuery, tagList){
 }
 
 function getTagCategory(tagValue) {
-    // Determine the category of a tag
     if (tagValue.startsWith('level') || tagValue === 'cantrip') {
         return 'level';
     }
@@ -52,12 +52,9 @@ function getTagCategory(tagValue) {
     if (['ritual', 'concentration'].includes(tagValue)) {
         return 'other';
     }
-    // If tag contains a colon, it's a subclass
     if (tagValue.includes(':')) {
-        const parentClass = tagValue.split(':')[0];
-        return `class:${parentClass}`;
+        return 'subclass';
     }
-    // Otherwise it's a base class
     return 'class';
 }
 
@@ -130,38 +127,41 @@ function matchSource(sourceQuery, sourcesData) {
 function applyFilters() {
     const sourceSearchBar = document.getElementById('sourceSearchBar');
     const sourceQuery = sourceSearchBar ? sourceSearchBar.value : '';
+    const advancedTagBar = document.getElementById('advancedTagBar');
+    const advancedQuery = advancedTagBar ? advancedTagBar.value.trim() : '';
     
     Array.from(document.querySelectorAll("li.post-link-container")).filter((elem) => {
         return !!elem.dataset['tags'];
     }).forEach((elem) => {
         let shouldShow = true;
         
-        // Group active tags by category
-        const tagsByCategory = {};
-        activeTags.forEach(tag => {
-            const category = getTagCategory(tag.value);
-            if (!tagsByCategory[category]) {
-                tagsByCategory[category] = [];
-            }
-            tagsByCategory[category].push(tag);
-        });
-        
-        // Apply AND logic between categories
-        for (const category in tagsByCategory) {
-            const categoryTags = tagsByCategory[category];
-            
-            // Within same category, use OR logic
-            const matchesCategory = categoryTags.some(tag => {
-                return matchTagList(tag.value, elem.dataset['tags']);
+        if (activeTags.length > 0) {
+            const tagsByCategory = {};
+            activeTags.forEach(tag => {
+                const category = getTagCategory(tag.value);
+                if (!tagsByCategory[category]) {
+                    tagsByCategory[category] = [];
+                }
+                tagsByCategory[category].push(tag);
             });
             
-            if (!matchesCategory) {
-                shouldShow = false;
-                break;
+            for (const category in tagsByCategory) {
+                const categoryTags = tagsByCategory[category];
+                const matchesCategory = categoryTags.some(tag => {
+                    return matchTagList(tag.value, elem.dataset['tags']);
+                });
+                
+                if (!matchesCategory) {
+                    shouldShow = false;
+                    break;
+                }
             }
         }
         
-        // Apply source filter
+        if (shouldShow && advancedQuery) {
+            shouldShow = matchTagList(advancedQuery, elem.dataset['tags']);
+        }
+        
         if (shouldShow && sourceQuery) {
             const sources = elem.dataset['sources'] || '';
             shouldShow = matchSource(sourceQuery, sources);
@@ -176,6 +176,204 @@ function applyFilters() {
     });
 }
 
+// Autocomplete functionality
+function setupAutocomplete() {
+    const advancedTagBar = document.getElementById('advancedTagBar');
+    if (!advancedTagBar) return;
+    
+    // Create autocomplete dropdown
+    const autocompleteDiv = document.createElement('div');
+    autocompleteDiv.className = 'autocomplete-items';
+    autocompleteDiv.style.display = 'none';
+    autocompleteDiv.style.position = 'absolute';
+    autocompleteDiv.style.left = '0';
+    autocompleteDiv.style.top = '100%';
+    autocompleteDiv.style.width = '100%';
+    advancedTagBar.parentElement.style.position = 'relative';
+    advancedTagBar.parentElement.appendChild(autocompleteDiv);
+    
+    let selectedIndex = -1;
+    
+    // Build list of all possible tags
+    function buildAllTags() {
+        const tags = new Set();
+        
+        // Add from dropdown options
+        const select = document.getElementById('tagSearchBar');
+        if (select) {
+            Array.from(select.options).forEach(option => {
+                if (option.value) {
+                    tags.add(option.value);
+                }
+            });
+        }
+        
+        // Add classes
+        const classes = ['bard', 'cleric', 'druid', 'paladin', 'ranger', 'sorcerer', 'warlock', 'wizard'];
+        classes.forEach(c => tags.add(c));
+        
+        // Add subclasses from data attributes in the page
+        document.querySelectorAll('li.post-link-container').forEach(elem => {
+            const dataTags = elem.dataset['tags'] || '';
+            const tagArray = dataTags.split(',');
+            tagArray.forEach(tag => {
+                // Don't convert kebab-case - keep as is
+                // The tags are already in the correct format
+                if (tag && tag.trim()) {
+                    tags.add(tag.trim());
+                }
+            });
+        });
+        
+        // Add levels
+        for (let i = 0; i <= 9; i++) {
+            tags.add(i === 0 ? 'cantrip' : `level${i}`);
+        }
+        
+        // Add damage types
+        const damageTypes = ['acid', 'bludgeoning', 'cold', 'fire', 'force', 'lightning', 
+                            'necrotic', 'piercing', 'poison', 'psychic', 'radiant', 'slashing', 'thunder'];
+        damageTypes.forEach(d => tags.add(`damage:${d}`));
+        
+        return Array.from(tags).sort();
+    }
+    
+    allTagOptions = buildAllTags();
+    
+    function getCurrentWord(input) {
+        const cursorPos = input.selectionStart;
+        const textBeforeCursor = input.value.substring(0, cursorPos);
+        const words = textBeforeCursor.split(/[\s&|!()]+/);
+        return words[words.length - 1] || '';
+    }
+    
+    function getMatches(query) {
+        if (!query) return [];
+        return allTagOptions.filter(tag => tag.includes(query.toLowerCase()));
+    }
+    
+    function showSuggestions(query) {
+        if (!query) {
+            autocompleteDiv.style.display = 'none';
+            selectedIndex = -1;
+            return;
+        }
+        
+        const matches = getMatches(query);
+        
+        if (matches.length === 0) {
+            autocompleteDiv.style.display = 'none';
+            selectedIndex = -1;
+            return;
+        }
+        
+        autocompleteDiv.innerHTML = '';
+        matches.slice(0, 10).forEach((tag, index) => {
+            const item = document.createElement('div');
+            item.className = 'autocomplete-item';
+            item.textContent = tag;
+            item.dataset.index = index;
+            
+            item.addEventListener('click', () => {
+                insertTag(tag);
+            });
+            
+            item.addEventListener('mouseenter', () => {
+                selectedIndex = index;
+                highlightSelected();
+            });
+            
+            autocompleteDiv.appendChild(item);
+        });
+        
+        autocompleteDiv.style.display = 'block';
+        selectedIndex = -1;
+    }
+    
+    function highlightSelected() {
+        const items = autocompleteDiv.querySelectorAll('.autocomplete-item');
+        items.forEach((item, index) => {
+            if (index === selectedIndex) {
+                item.classList.add('autocomplete-item-selected');
+            } else {
+                item.classList.remove('autocomplete-item-selected');
+            }
+        });
+    }
+    
+    function insertTag(tag) {
+        const cursorPos = advancedTagBar.selectionStart;
+        const textBeforeCursor = advancedTagBar.value.substring(0, cursorPos);
+        const textAfterCursor = advancedTagBar.value.substring(cursorPos);
+        const words = textBeforeCursor.split(/([\s&|!()]+)/);
+        
+        // Find the last word
+        for (let i = words.length - 1; i >= 0; i--) {
+            if (words[i].trim() && !'&|!()'.includes(words[i].trim())) {
+                words[i] = tag;
+                break;
+            }
+        }
+        
+        advancedTagBar.value = words.join('') + textAfterCursor;
+        autocompleteDiv.style.display = 'none';
+        selectedIndex = -1;
+        advancedTagBar.focus();
+        applyFilters();
+    }
+    
+    advancedTagBar.addEventListener('input', () => {
+        const currentWord = getCurrentWord(advancedTagBar);
+        showSuggestions(currentWord);
+        applyFilters();
+    });
+    
+    advancedTagBar.addEventListener('keydown', (e) => {
+        const matches = getMatches(getCurrentWord(advancedTagBar));
+        
+        if (e.key === 'Escape') {
+            autocompleteDiv.style.display = 'none';
+            selectedIndex = -1;
+        } else if (e.key === 'ArrowDown' && matches.length > 0) {
+            e.preventDefault();
+            if (selectedIndex < matches.length - 1) {
+                selectedIndex++;
+            } else {
+                selectedIndex = 0;
+            }
+            highlightSelected();
+        } else if (e.key === 'ArrowUp' && matches.length > 0) {
+            e.preventDefault();
+            if (selectedIndex > 0) {
+                selectedIndex--;
+            } else {
+                selectedIndex = matches.length - 1;
+            }
+            highlightSelected();
+        } else if (e.key === 'Enter' && selectedIndex >= 0) {
+            e.preventDefault();
+            const selectedTag = matches[selectedIndex];
+            if (selectedTag) {
+                insertTag(selectedTag);
+            }
+        } else if (e.key === 'Tab' && selectedIndex >= 0) {
+            e.preventDefault();
+            const selectedTag = matches[selectedIndex];
+            if (selectedTag) {
+                insertTag(selectedTag);
+            }
+        }
+    });
+    
+    // Hide autocomplete when clicking outside
+    document.addEventListener('click', (e) => {
+        if (e.target !== advancedTagBar && !autocompleteDiv.contains(e.target)) {
+            autocompleteDiv.style.display = 'none';
+            selectedIndex = -1;
+        }
+    });
+}
+
 async function ready() {
     const tagSearchBar = document.getElementById("tagSearchBar");
     if (!tagSearchBar) {
@@ -183,18 +381,7 @@ async function ready() {
     }
     
     const sourceSearchBar = document.getElementById("sourceSearchBar");
-    
-    // Parse URL params for initial tags
-    const params = new URLSearchParams(window.location.search);
-    if (params.get("tags")){
-        const tags = params.get("tags").split(',');
-        tags.forEach(tag => {
-            const option = tagSearchBar.querySelector(`option[value="${tag}"]`);
-            if (option) {
-                addTag(tag, option.textContent.trim());
-            }
-        });
-    }
+    const advancedTagBar = document.getElementById("advancedTagBar");
     
     // Tag dropdown handler
     tagSearchBar.addEventListener('change', (e) => {
@@ -205,10 +392,34 @@ async function ready() {
         }
     });
     
+    // Advanced search handler
+    if (advancedTagBar) {
+        advancedTagBar.addEventListener('input', applyFilters);
+    }
+    
     // Source dropdown handler
     if (sourceSearchBar) {
         sourceSearchBar.addEventListener('change', applyFilters);
     }
+    
+    // Toggle advanced filters
+    const toggleAdvanced = document.getElementById('toggleAdvanced');
+    const advancedFilters = document.getElementById('advancedFilters');
+    
+    if (toggleAdvanced && advancedFilters) {
+        toggleAdvanced.addEventListener('click', () => {
+            if (advancedFilters.style.display === 'none') {
+                advancedFilters.style.display = 'block';
+                toggleAdvanced.textContent = 'Hide advanced filters';
+            } else {
+                advancedFilters.style.display = 'none';
+                toggleAdvanced.textContent = 'Show advanced filters';
+            }
+        });
+    }
+    
+    // Setup autocomplete
+    setupAutocomplete();
     
     return Promise.all([applyFilters()]);
 }

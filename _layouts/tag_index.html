@@ -7,33 +7,10 @@
 		<div class="wrapper">
 			<h1 class="page-heading">{{page.title}}</h1>
 			<p id="spellSearch">Search by name: <input type="search" id="jetsSearch" class="jetsSearch"></p>
-			
 			<div class="filter-section">
-				<label for="tagSearchBar">Filter by tag:</label>
+				<label for="tagSearchBar">Filter by:</label>
 				<select id="tagSearchBar" class="tag-select">
-					<option value="">Select a tag to add...</option>
-					{% for class in site.data.classes %}
-					<optgroup label="{{ class.name }}">
-						<option value="{{ class.tag }}">{{ class.name }}</option>
-						{% if class.subtags %}
-							{% for subtag in class.subtags %}
-							<option value="{{ class.tag }}:{{ subtag.tag }}">{{ subtag.name }}</option>
-							{% endfor %}
-						{% endif %}
-					</optgroup>
-					{% endfor %}
-					<optgroup label="Level">
-						<option value="cantrip">Cantrip</option>
-						<option value="level1">Level 1</option>
-						<option value="level2">Level 2</option>
-						<option value="level3">Level 3</option>
-						<option value="level4">Level 4</option>
-						<option value="level5">Level 5</option>
-						<option value="level6">Level 6</option>
-						<option value="level7">Level 7</option>
-						<option value="level8">Level 8</option>
-						<option value="level9">Level 9</option>
-					</optgroup>
+					<option value="">Select a filter...</option>
 					<optgroup label="Casting Time">
 						<option value="action">Action</option>
 						<option value="bonus">Bonus Action</option>
@@ -56,15 +33,17 @@
 					</optgroup>
 				</select>
 			</div>
-			
 			<div id="activeFilters" class="active-filters"></div>
-			
-			<p id="sourceSearch">Filter by source: 
-				<select id="sourceSearchBar" class="tag-select">
-					<option value="">All sources</option>
-					<option value="Player's Handbook">Player's Handbook (2024)</option>
-				</select>
-			</p>
+			<button id="toggleAdvanced" class="toggle-advanced">Show advanced filters</button>
+			<div id="advancedFilters" class="advanced-filters" style="display: none;">
+				<p id="advancedTagSearch">Advanced tag search: <input type="search" id="advancedTagBar" class="jetsSearch" placeholder="e.g., level1 & bard"></p>
+				<p id="sourceSearch">Filter by source: 
+					<select id="sourceSearchBar" class="tag-select">
+						<option value="">All sources</option>
+						<option value="Player's Handbook">Player's Handbook (2024)</option>
+					</select>
+				</p>
+			</div>
 			
 			<dl class="tag-list">
 				<dt>Spell tier:</dt>
