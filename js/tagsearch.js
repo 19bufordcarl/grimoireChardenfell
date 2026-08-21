@@ -37,8 +37,31 @@ function matchTagList(searchQuery, tagList){
     return matchTagList0(searchQuery.replaceAll(/\s+/g, ''), tagArray);
 }
 
+function getTagCategory(tagValue) {
+    // Determine the category of a tag
+    if (tagValue.startsWith('level') || tagValue === 'cantrip') {
+        return 'level';
+    }
+    if (['action', 'bonus', 'reaction', 'long'].includes(tagValue)) {
+        return 'castingTime';
+    }
+    if (['abjuration', 'conjuration', 'divination', 'enchantment', 'evocation', 
+         'illusion', 'necromancy', 'transmutation'].includes(tagValue)) {
+        return 'school';
+    }
+    if (['ritual', 'concentration'].includes(tagValue)) {
+        return 'other';
+    }
+    // If tag contains a colon, it's a subclass
+    if (tagValue.includes(':')) {
+        const parentClass = tagValue.split(':')[0];
+        return `class:${parentClass}`;
+    }
+    // Otherwise it's a base class
+    return 'class';
+}
+
 function addTag(tagValue, tagLabel) {
-    // Check if tag already exists
     if (activeTags.some(t => t.value === tagValue)) {
         return;
     }
@@ -86,27 +109,62 @@ function updateActiveFilters() {
     container.querySelector('.clear-all').addEventListener('click', clearAllTags);
 }
 
+function matchSource(sourceQuery, sourcesData) {
+    if (!sourceQuery) return true;
+    
+    const sourcesNormalized = sourcesData.toLowerCase();
+    const queryNormalized = sourceQuery.toLowerCase();
+    
+    if (sourcesNormalized.includes(queryNormalized)) {
+        return true;
+    }
+    
+    const abbrMatches = sourcesData.match(/\[([A-Z]+)\.\d+\]/g);
+    if (abbrMatches) {
+        return abbrMatches.some(abbr => abbr.toLowerCase().includes(queryNormalized));
+    }
+    
+    return false;
+}
+
 function applyFilters() {
     const sourceSearchBar = document.getElementById('sourceSearchBar');
-    const sourceQuery = sourceSearchBar ? sourceSearchBar.value.toLowerCase() : '';
+    const sourceQuery = sourceSearchBar ? sourceSearchBar.value : '';
     
     Array.from(document.querySelectorAll("li.post-link-container")).filter((elem) => {
         return !!elem.dataset['tags'];
     }).forEach((elem) => {
         let shouldShow = true;
         
-        // Apply active tag filters with OR logic
-        // Show spell if it matches ANY of the active tags
-        if (activeTags.length > 0) {
-            shouldShow = activeTags.some(tag => {
+        // Group active tags by category
+        const tagsByCategory = {};
+        activeTags.forEach(tag => {
+            const category = getTagCategory(tag.value);
+            if (!tagsByCategory[category]) {
+                tagsByCategory[category] = [];
+            }
+            tagsByCategory[category].push(tag);
+        });
+        
+        // Apply AND logic between categories
+        for (const category in tagsByCategory) {
+            const categoryTags = tagsByCategory[category];
+            
+            // Within same category, use OR logic
+            const matchesCategory = categoryTags.some(tag => {
                 return matchTagList(tag.value, elem.dataset['tags']);
             });
+            
+            if (!matchesCategory) {
+                shouldShow = false;
+                break;
+            }
         }
         
-        // Apply source filter (separate, still AND with tag filters)
+        // Apply source filter
         if (shouldShow && sourceQuery) {
             const sources = elem.dataset['sources'] || '';
-            shouldShow = sources.toLowerCase().includes(sourceQuery.toLowerCase());
+            shouldShow = matchSource(sourceQuery, sources);
         }
         
         if (shouldShow) {
@@ -143,7 +201,7 @@ async function ready() {
         const selectedOption = tagSearchBar.options[tagSearchBar.selectedIndex];
         if (selectedOption.value) {
             addTag(selectedOption.value, selectedOption.textContent.trim());
-            tagSearchBar.value = ''; // Reset dropdown
+            tagSearchBar.value = '';
         }
     });
     
