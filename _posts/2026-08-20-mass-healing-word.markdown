@@ -22,4 +22,4 @@ Up to six creatures of your choice that you can see within range regain Hit Poin
 
 ***Using a Higher-Level Spell Slot.***
 
-The healing increases by 2d4 for each spell slot level above 3.
+The healing increases by 1d4 for each spell slot level above 3.

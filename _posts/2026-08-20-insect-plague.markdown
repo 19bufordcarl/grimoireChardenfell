@@ -26,4 +26,4 @@ When the swarm appears, each creature in it makes a Constitution saving throw, t
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 4d10 for each spell slot level above 5.
+The damage increases by 1d10 for each spell slot level above 5.

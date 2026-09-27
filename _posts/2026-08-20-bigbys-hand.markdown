@@ -21,7 +21,7 @@ subtags:
 
 You create a Large hand of shimmering magical energy in an unoccupied space that you can see within range. The hand lasts for the duration, and it moves at your command, mimicking the movements of your own hand.
 
-The hand is an object that has AC 20 and Hit Points equal to your Hit Points maximum. If it drops to 0 Hit Points, the spell ends. The hand doesn't occupy its space.
+The hand is an object that has AC 20 and Hit Points equal to your Hit Point maximum. If it drops to 0 Hit Points, the spell ends. The hand doesn't occupy its space.
 
 When you cast the spell and as a Bonus Action on your later turns, you can move the hand up to 60 feet and then cause one of the following effects:
 
@@ -39,8 +39,8 @@ The hand attempts to grapple a Huge or smaller creature within 5 feet of it. The
 
 **Interposing Hand.**
 
-The hand grants you Cover against attacks and other effects that originate from its space or that pass through it. In addition, its space counts as Difficult Terrain for your enemies.
+The hand grants you Half Cover against attacks and other effects that originate from its space or that pass through it. In addition, its space counts as Difficult Terrain for your enemies.
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage of the Clenched Fist increases by 5d8 and the damage of the Grasping Hand increases by 4d6 for each spell slot level above 5.
+The damage of the Clenched Fist increases by 2d8 and the damage of the Grasping Hand increases by 2d6 for each spell slot level above 5.

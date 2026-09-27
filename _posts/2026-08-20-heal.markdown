@@ -20,4 +20,4 @@ Choose a creature that you can see within range. Positive energy washes through 
 
 ***Using a Higher-Level Spell Slot.***
 
-The healing increases by 70 for each spell slot level above 6.
+The healing increases by 10 for each spell slot level above 6.

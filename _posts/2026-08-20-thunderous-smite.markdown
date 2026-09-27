@@ -22,4 +22,4 @@ Your strike rings with thunder that is audible within 300 feet of you, and the t
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 2d6 for each spell slot level above 1.
+The damage increases by 1d6 for each spell slot level above 1.

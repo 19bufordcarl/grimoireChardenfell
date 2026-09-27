@@ -20,4 +20,4 @@ Up to five creatures of your choice who remain within range for the spell's enti
 
 ***Using a Higher-Level Spell Slot.***
 
-The healing increases by 2d8 for each spell slot level above 2.
+The healing increases by 1d8 for each spell slot level above 2.

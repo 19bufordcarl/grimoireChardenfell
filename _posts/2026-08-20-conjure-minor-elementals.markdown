@@ -27,4 +27,4 @@ In addition, the ground in the Emanation is Difficult Terrain for your enemies.
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 2d8 for each spell slot level above 4.
+The damage increases by 1d8 for each spell slot level above 4.

@@ -30,4 +30,4 @@ If you roll the same number on two or more of the d8s, the orb leaps to a differ
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 3d8 for each spell slot level above 1. The orb can leap a maximum number of times equal to the level of the slot expended, and a creature can be targeted only once by each casting of this spell.
+The damage increases by 1d8 for each spell slot level above 1. The orb can leap a maximum number of times equal to the level of the slot expended, and a creature can be targeted only once by each casting of this spell.

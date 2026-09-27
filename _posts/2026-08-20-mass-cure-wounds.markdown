@@ -23,4 +23,4 @@ A wave of healing energy washes out from a point you can see within range. Choos
 
 ***Using a Higher-Level Spell Slot.***
 
-The healing increases by 5d8 for each spell slot level above 5.
+The healing increases by 1d8 for each spell slot level above 5.

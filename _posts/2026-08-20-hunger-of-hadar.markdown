@@ -27,4 +27,4 @@ Any creature that starts its turn in the area takes 2d6 Cold damage. Any creatur
 
 ***Using a Higher-Level Spell Slot.***
 
-The Cold or Acid damage (your choice) increases by 2d6 for each spell slot level above 3.
+The Cold or Acid damage (your choice) increases by 1d6 for each spell slot level above 3.

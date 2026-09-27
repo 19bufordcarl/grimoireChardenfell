@@ -25,4 +25,4 @@ Alternatively, target a nonmagical plant that isn't a creature, such as a tree o
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 8d8 for each spell slot level above 4.
+The damage increases by 1d8 for each spell slot level above 4.

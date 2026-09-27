@@ -22,4 +22,4 @@ A creature you touch makes a Constitution saving throw, taking 2d10 Necrotic dam
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 2d10 for each spell slot level above 1.
+The damage increases by 1d10 for each spell slot level above 1.

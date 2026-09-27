@@ -26,4 +26,4 @@ This spell automatically disintegrates a Large or smaller nonmagical object or a
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 10d6 + 40 for each spell slot level above 6.
+The damage increases by 3d6 for each spell slot level above 6.

@@ -26,4 +26,4 @@ When you cast this spell, you can designate creatures to be unaffected by it. An
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 3d8 for each spell slot level above 3.
+The damage increases by 1d8 for each spell slot level above 3.

@@ -25,4 +25,4 @@ A nonmagical object that isn't being worn or carried also takes the damage if it
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 3d8 for each spell slot level above 2.
+The damage increases by 1d8 for each spell slot level above 2.

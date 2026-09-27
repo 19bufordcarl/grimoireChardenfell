@@ -34,4 +34,4 @@ Whenever the Cylinder moves into the space of a creature you can see and wheneve
 
 ***Using a Higher-Level Spell Slot.***
 
-The healing and damage increase by 6d12 for each spell slot level above 7.
+The healing and damage increase by 1d12 for each spell slot level above 7.

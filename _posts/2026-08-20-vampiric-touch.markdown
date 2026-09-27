@@ -24,4 +24,4 @@ Until the spell ends, you can make the attack again on each of your turns as a M
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 3d6 for each spell slot level above 3.
+The damage increases by 1d6 for each spell slot level above 3.

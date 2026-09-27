@@ -28,4 +28,4 @@ A creature moving through the sheet of frigid air for the first time on a turn m
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage the wall deals when it appears increases by 10d6 and the damage from passing through the sheet of frigid air increases by 5d6 for each spell slot level above 6.
+The damage the wall deals when it appears increases by 2d6 and the damage from passing through the sheet of frigid air increases by 1d6 for each spell slot level above 6.

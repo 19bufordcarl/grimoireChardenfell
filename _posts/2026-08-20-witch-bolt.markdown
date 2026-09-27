@@ -26,4 +26,4 @@ The spell ends if the target is ever outside the spell's range or if it has Tota
 
 ***Using a Higher-Level Spell Slot.***
 
-The initial damage increases by 2d12 for each spell slot level above 1.
+The initial damage increases by 1d12 for each spell slot level above 1.

@@ -26,4 +26,4 @@ The Sphere moves 10 feet away from you at the start of each of your turns.
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 5d8 for each spell slot level above 5.
+The damage increases by 1d8 for each spell slot level above 5.

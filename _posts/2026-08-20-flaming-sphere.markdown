@@ -26,4 +26,4 @@ When you move the sphere, you can direct it over barriers up to 5 feet tall and 
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 2d6 for each spell slot level above 2.
+The damage increases by 1d6 for each spell slot level above 2.

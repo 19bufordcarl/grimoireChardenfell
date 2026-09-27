@@ -25,4 +25,4 @@ A vertical column of brilliant fire roars down from above. Each creature in a 10
 
 ***Using a Higher-Level Spell Slot.***
 
-The Fire damage and the Radiant damage increase by 5d6 for each spell slot level above 5.
+The Fire damage and the Radiant damage increase by 1d6 for each spell slot level above 5.

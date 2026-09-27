@@ -24,4 +24,4 @@ As a Bonus Action on your later turns, you can teleport the spirit to an unoccup
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 3d12 for each spell slot level above 6.
+The damage increases by 1d12 for each spell slot level above 6.

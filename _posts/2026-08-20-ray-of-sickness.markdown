@@ -23,4 +23,4 @@ You shoot a greenish ray at a creature within range. Make a ranged spell attack 
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 2d8 for each spell slot level above 1.
+The damage increases by 1d8 for each spell slot level above 1.

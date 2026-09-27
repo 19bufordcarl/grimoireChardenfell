@@ -24,4 +24,4 @@ The weapon or ammunition then returns to its normal form.
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage for both effects of the spell increases by 4d8 for each spell slot level above 3.
+The damage for both effects of the spell increases by 1d8 for each spell slot level above 3.

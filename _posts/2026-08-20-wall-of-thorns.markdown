@@ -27,4 +27,4 @@ A creature can move through the wall, albeit slowly and painfully. For every 1 f
 
 ***Using a Higher-Level Spell Slot.***
 
-Both types of damage increase by 7d8 for each spell slot level above 6.
+Both types of damage increase by 1d8 for each spell slot level above 6.

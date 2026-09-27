@@ -26,4 +26,4 @@ You can refrain from firing the globe after completing the spell's casting. If y
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 10d6 for each spell slot level above 6.
+The damage increases by 1d6 for each spell slot level above 6.

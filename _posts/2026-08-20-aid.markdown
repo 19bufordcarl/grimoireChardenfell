@@ -21,7 +21,7 @@ subtags:
 
 **Duration**: 8 hours
 
-Choose up to three creatures within range. Each target's Hit Points maximum and current Hit Points increase by 5 for the duration.
+Choose up to three creatures within range. Each target's Hit Point maximum and current Hit Points increase by 5 for the duration.
 
 ***Using a Higher-Level Spell Slot.***
 

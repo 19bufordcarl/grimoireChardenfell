@@ -23,4 +23,4 @@ Invoking Hadar, you cause tendrils to erupt from yourself. Each creature in a 10
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 2d6 for each spell slot level above 1.
+The damage increases by 1d6 for each spell slot level above 1.

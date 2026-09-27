@@ -32,9 +32,9 @@ The target's gear melds into the new form. The creature can't use or otherwise b
 
 **Object into Creature.**
 
-You can turn an object into any kind of creature, as long as the creature's size is no larger than the object's size and the creature has a Challenge Rating of 9 or lower. The creature is Friendly [Attitude] to you and your allies. In combat, it takes its turns immediately after yours, and it obeys your commands.
+You can turn an object into any kind of creature, as long as the creature's size is no larger than the object's size and the creature has a Challenge Rating of 9 or lower. The creature is Friendly to you and your allies. In combat, it takes its turns immediately after yours, and it obeys your commands.
 
-If the spell lasts more than an hour, you no longer control the creature. It might remain Friendly [Attitude] to you, depending on how you have treated it.
+If the spell lasts more than an hour, you no longer control the creature. It might remain Friendly to you, depending on how you have treated it.
 
 **Creature into Object.**
 

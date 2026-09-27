@@ -22,4 +22,4 @@ Negative energy ripples out in a 60-foot-radius Sphere from a point you choose w
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 8d8 for each spell slot level above 6.
+The damage increases by 2d8 for each spell slot level above 6.

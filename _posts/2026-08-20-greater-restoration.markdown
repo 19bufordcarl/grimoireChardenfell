@@ -30,4 +30,4 @@ You touch a creature and magically remove one of the following effects from it:
 
 * Any reduction to one of the target's ability scores
 
-* Any reduction to the target's Hit Points maximum
+* Any reduction to the target's Hit Point maximum

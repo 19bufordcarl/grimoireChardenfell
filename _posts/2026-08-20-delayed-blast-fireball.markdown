@@ -28,4 +28,4 @@ When the bead explodes, flammable objects in the explosion that aren't being wor
 
 ***Using a Higher-Level Spell Slot.***
 
-The base damage increases by 12d6 for each spell slot level above 7.
+The base damage increases by 1d6 for each spell slot level above 7.

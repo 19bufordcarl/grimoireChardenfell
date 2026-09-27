@@ -22,4 +22,4 @@ The target takes an extra 4d6 Psychic damage from the attack, and the target mus
 
 ***Using a Higher-Level Spell Slot.***
 
-The extra damage increases by 4d6 for each spell slot level above 4.
+The extra damage increases by 1d6 for each spell slot level above 4.

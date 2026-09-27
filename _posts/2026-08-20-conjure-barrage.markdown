@@ -22,4 +22,4 @@ You brandish the weapon used to cast the spell and conjure similar spectral weap
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 5d8 for each spell slot level above 3.
+The damage increases by 1d8 for each spell slot level above 3.

@@ -24,4 +24,4 @@ On your later turns, you can take a Magic action to teleport the Cube up to 30 f
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 4d4 for each spell slot level above 2.
+The damage increases by 2d4 for each spell slot level above 2.

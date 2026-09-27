@@ -24,4 +24,4 @@ For the duration, the target makes a Wisdom saving throw at the end of each of i
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 4d10 for each spell slot level above 4.
+The damage increases by 1d10 for each spell slot level above 4.

@@ -12,7 +12,7 @@ subtags:
 
 **Casting Time**: 1 action
 
-**Range**: Self
+**Range**: Self (60-foot line)
 
 **Components**: V, S, M (a legume seed)
 

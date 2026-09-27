@@ -22,4 +22,4 @@ You drive a spike of psionic energy into the mind of one creature you can see wi
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 3d8 for each spell slot level above 2.
+The damage increases by 1d8 for each spell slot level above 2.

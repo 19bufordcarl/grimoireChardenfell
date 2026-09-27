@@ -28,4 +28,4 @@ Whenever a creature you can see enters the spirit's space or starts its turn wit
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 8d8 for each spell slot level above 5.
+The damage increases by 1d8 for each spell slot level above 5.

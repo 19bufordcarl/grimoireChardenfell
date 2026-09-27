@@ -25,4 +25,4 @@ When the storm appears, each creature in it makes a Constitution saving throw, t
 
 ***Using a Higher-Level Spell Slot.***
 
-The Radiant and Thunder damage increase by 2d10 for each spell slot level above 5.
+The Radiant and Thunder damage increase by 1d10 for each spell slot level above 5.

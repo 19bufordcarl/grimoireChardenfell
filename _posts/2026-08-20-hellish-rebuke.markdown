@@ -22,4 +22,4 @@ The creature that damaged you is momentarily surrounded by green flames. It make
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 2d10 for each spell slot level above 1.
+The damage increases by 1d10 for each spell slot level above 1.

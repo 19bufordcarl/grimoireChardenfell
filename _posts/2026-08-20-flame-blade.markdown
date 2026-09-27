@@ -26,4 +26,4 @@ The flaming blade sheds Bright Light in a 10-foot radius and Dim Light for an ad
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 3d6 for each spell slot level above 2.
+The damage increases by 1d6 for each spell slot level above 2.

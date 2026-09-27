@@ -28,4 +28,4 @@ Hailstones turn ground in the Cylinder into Difficult Terrain until the end of y
 
 ***Using a Higher-Level Spell Slot.***
 
-The Bludgeoning damage increases by 2d8 for each spell slot level above 4.
+The Bludgeoning damage increases by 1d10 for each spell slot level above 4.

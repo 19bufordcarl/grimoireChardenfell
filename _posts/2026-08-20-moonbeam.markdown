@@ -26,4 +26,4 @@ When the Cylinder appears, each creature in it makes a Constitution saving throw
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 2d10 for each spell slot level above 2.
+The damage increases by 1d10 for each spell slot level above 2.

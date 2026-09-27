@@ -24,4 +24,4 @@ A stroke of lightning forming a 100-foot-long, 5-foot-wide Line blasts out from 
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 8d6 for each spell slot level above 3.
+The damage increases by 1d6 for each spell slot level above 3.

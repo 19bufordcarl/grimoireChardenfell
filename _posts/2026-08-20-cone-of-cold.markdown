@@ -23,4 +23,4 @@ You unleash a blast of cold air. Each creature in a 60-foot Cone originating fro
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 8d8 for each spell slot level above 5.
+The damage increases by 1d8 for each spell slot level above 5.

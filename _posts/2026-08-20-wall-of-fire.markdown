@@ -29,4 +29,4 @@ One side of the wall, selected by you when you cast this spell, deals 5d8 Fire d
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 5d8 for each spell slot level above 4.
+The damage increases by 1d8 for each spell slot level above 4.

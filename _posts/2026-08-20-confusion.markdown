@@ -32,4 +32,4 @@ At the end of each of its turns, an affected target repeats the save, ending the
 
 ***Using a Higher-Level Spell Slot.***
 
-The Sphere 's radius increases by 5 feet for each spell slot level above 4.
+The Sphere's radius increases by 5 feet for each spell slot level above 4.

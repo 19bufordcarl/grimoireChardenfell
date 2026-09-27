@@ -26,4 +26,4 @@ You hurl a bolt of light toward a creature within range. Make a ranged spell att
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 4d6 for each spell slot level above 1.
+The damage increases by 1d6 for each spell slot level above 1.

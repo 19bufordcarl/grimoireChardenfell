@@ -22,4 +22,4 @@ The target takes an extra 2d8 Radiant damage from the attack. The damage increas
 
 ***Using a Higher-Level Spell Slot.***
 
-The damage increases by 2d8 for each spell slot level above 1.
+The damage increases by 1d8 for each spell slot level above 1.
