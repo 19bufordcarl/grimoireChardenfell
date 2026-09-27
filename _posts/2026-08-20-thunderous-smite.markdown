@@ -10,7 +10,7 @@ subtags:
 
 **1st-level Evocation**
 
-**Casting Time**: 1 bonus action (which you take immediately after hitting a target with a Melee weapon or an {@variantrule Unarmed Strike|XPHB})
+**Casting Time**: 1 bonus action (which you take immediately after hitting a target with a Melee weapon or an Unarmed Strike)
 
 **Range**: Self
 

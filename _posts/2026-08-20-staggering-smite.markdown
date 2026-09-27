@@ -10,7 +10,7 @@ subtags:
 
 **4th-level Enchantment**
 
-**Casting Time**: 1 bonus action (which you take immediately after hitting a creature with a Melee weapon or an {@variantrule Unarmed Strike|XPHB})
+**Casting Time**: 1 bonus action (which you take immediately after hitting a creature with a Melee weapon or an Unarmed Strike)
 
 **Range**: Self
 
